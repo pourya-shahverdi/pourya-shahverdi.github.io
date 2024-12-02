@@ -59,7 +59,8 @@ education:
     date_start: 2021-01-05
     date_end: 2025-04-30
     summary: |
-      Thesis on "Emotional Intelligence and Context Awareness in Social HRI." Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/).
+      Thesis on "Emotional Intelligence and Context Awareness in Social HRI." 
+      Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/).
 
       Courses included:
       - Human-Robot Interaction 
@@ -74,7 +75,8 @@ education:
     date_start: 2013-09-01
     date_end: 2016-01-15
     summary: |
-      Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot". Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh).
+      Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot". 
+      Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh).
 
       Courses included:
       - Advanced Robotics
@@ -86,7 +88,8 @@ education:
     date_start: 2008-09-01
     date_end: 2013-04-30
     summary: |
-      Final Project on "Balance Recovery Techniques in Humanoid Robots." Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir).
+      Final Project on "Balance Recovery Techniques in Humanoid Robots." 
+      Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir).
       
       Courses included:
       - Robotic Systems and Control 
