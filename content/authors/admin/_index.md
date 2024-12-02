@@ -99,7 +99,7 @@ education:
       - Embedded Programming
 work:
   - position: Graduate Research Assistant
-    company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory ($IRL^2$) 
+    company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory (IRL$^$2) 
     company_url: ''
     company_logo: ''
     date_start: 2021-01-05
