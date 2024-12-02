@@ -59,8 +59,8 @@ education:
     date_start: 2021-01-05
     date_end: 2025-04-30
     summary: |
-      Thesis on "Emotional Intelligence and Context Awareness in Social HRI." 
-      Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/).
+      Dissertation on "Emotional Intelligence and Context Awareness in Social HRI" 
+      Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
 
       Courses included:
       - Human-Robot Interaction 
@@ -75,8 +75,8 @@ education:
     date_start: 2013-09-01
     date_end: 2016-01-15
     summary: |
-      Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot". 
-      Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh).
+      Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot"
+      Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh)
 
       Courses included:
       - Advanced Robotics
@@ -88,8 +88,8 @@ education:
     date_start: 2008-09-01
     date_end: 2013-04-30
     summary: |
-      Final Project on "Balance Recovery Techniques in Humanoid Robots." 
-      Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir).
+      Final Project on "Balance Recovery Techniques in Humanoid Robots" 
+      Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir)
       
       Courses included:
       - Robotic Systems and Control 
@@ -98,62 +98,127 @@ education:
       - Fuzzy Systems and Control
       - Embedded Programming
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Graduate Research Assistant
+    company_name: Oakland University-In Real-Life Intelligent Robotics Laboratory (IRL^2) 
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2021-01-05
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Working on my Ph.D. Dissertation Entitled "Emotional Intelligence and Context Awareness in Social HRI" 
+      - Leading Original Research Studies in Social HRI in a Variety of Contexts Such as Healthcare to Education
+      - Developing AI/ML Frameworks for Social Robot's Verbal and Nonverbal Behaviors
+      - Collaboration with Other Lab Projects
+      - Advising Undergraduate Lab Members
+
+  - position: Graduate Teaching Assistant (Lab Instructor)
+    company_name: Oakland University-School of Engineering and Computer Science 
+    company_url: https://oakland.edu/secs/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-01-05
+    date_end: ''
+    summary: |2-
+      Course Lecturer: [Prof. Ossamah Rawashdeh](https://www.oakland.edu/secs/directory/rawashdeh/)
+      Responsibilities include:
+      - Instructing the Lab’s Experiments: Arduino Programming, Electronic Circuit Design, Sensors and Actuators
+      - Leading and Training Graduate Teacher Assistants
+      - Mentoring Sophomore Design Project Team Works
+  
+  - position: Education Department Chair
+    company_name: Federation of International Robot Sports Association (FIRA)-Iran Chapter  
+    company_url: https://firaworldcup.org
+    company_logo: ''
+    date_start: 2018-01-20
+    date_end: 2020-12-20
+    summary: |2-
+      Responsibilities include:
+      - Designed Syllabus and Educational Platforms in Collaboration with FIRA-International
+      - Trained Teachers
+      - Created Educational Content for Online Courses
+      - Designed Competitions for FIRA-Iran and FIRA-International
+  
+  
+  - position: Researcher
+    company_name: University of Tehran-Taarlab HRI Laboratory
+    company_url: https://taarlab.com
+    company_logo: ''
+    date_start: 2012-01-20
+    date_end: 2017-12-20
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Worked on my M.Sc. Thesis Entitled ["Whole-Body Imitation of Human Motions by a NAO Humanoid Robot"](https://youtu.be/0c-mpC6NMfY)
+      - Participated in Designing and Manufacturing a 3-DoF Parallel Manipulator (Tripteron)
+
+  - position: Teaching Assistant
+    company_name: University of Tehran-College of Engineering / Electrical and Computer Engineering  
+    company_url: 
+    company_logo: ''
+    date_start: 2016-09-20
+    date_end: 2017-01-20
+    summary: |2-
+      Course Lecturer: [Prof. Mostafa Ersali]
+      Responsibilities include:
+      - Designed a Modular Educational Robot Platform Based on Raspberry Pi and Arduino Capable of Interfacing with Different Sensor and Actuator Modules
+      - Taught Lab Experiments of the Course
+      - Supervised the Students’ Final Projects
+  
+  - position: Internship (part-time)
+    company_name: Mechatronics Research Laboratory (MRL)
+    company_url: https://sites.google.com/view/mrl-hsl/home?authuser=0
+    company_logo: ''
+    date_start: 2013-09-20
+    date_end: 2015-04-30
+    summary: |
+      Responsibilities include:
+      - Developed a Push Recovery Model Using an Inverted Pendulum Model and a PID Controller
+      - Developed a Navigation Model Towards the Opponent’s Gate Utilizing Compass Data
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 85
         icon: code-bracket
-      - name: Data Science
+      - name: C++
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
-      - name: SQL
+      - name: R
         description: ''
-        percent: 40
-        icon: circle-stack
+        percent: 60
+        icon: ''
+      - name: Kotlin
+        description: ''
+        percent: 50
+        icon: ''
+      - name: Matlab
+        description: ''
+        percent: 70
+        icon: ''
+      - name: Mathematica
+        description: ''
+        percent: 75
+        icon: ''
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Basketball
+        description: ''
+        percent: 100
+        # icon: basketball
       - name: Hiking
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Piano
         description: ''
         percent: 80
-        icon: camera
+        # icon: piano
 
 languages:
   - name: English
