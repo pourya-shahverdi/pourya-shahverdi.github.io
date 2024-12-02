@@ -3,7 +3,7 @@
 title: Pourya Shahverdi
 
 # Name pronunciation (optional)
-name_pronunciation: Pour Ya
+# name_pronunciation: Pour Ya
 
 # Full name (for SEO)
 first_name: Pourya
@@ -56,8 +56,8 @@ interests:
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
     institution: Oakland University
-    date_start: 2021
-    date_end: 2025
+    date_start: 2021-01-05
+    date_end: 2025-04-30
     summary: |
       Thesis on "Emotional Intelligence and Context Awareness in Social HRI." Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/).
 
@@ -71,8 +71,8 @@ education:
     #   url: 'https://example.com'
   - area: M.Sc. Mechatronics Engineering
     institution: Azad University of Qazvin (Iran)
-    date_start: 2013
-    date_end: 2016
+    date_start: 2013-09-01
+    date_end: 2016-01-15
     summary: |
       Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot". Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh).
 
@@ -80,11 +80,11 @@ education:
       - Advanced Robotics
       - Mobile Robots (Navigation) 
       - Dynamic System Modeling 
-      - Mechatronics Design
+      - Mechatronics Design (I and II)
   - area: B.Sc. Robotics Engineering
     institution: Hamedan University of Technology
-    date_start: 2008
-    date_end: 2013
+    date_start: 2008-09-01
+    date_end: 2013-04-30
     summary: |
       Final Project on "Balance Recovery Techniques in Humanoid Robots." Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir).
       
@@ -155,10 +155,10 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Persian
+    percent: 100
+  - name: Azerbaijani
+    percent: 40
 
 # Awards.
 #   Add/remove as many awards below as you like.
