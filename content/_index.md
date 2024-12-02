@@ -35,11 +35,9 @@ sections:
       title: '📚 My Mission'
       subtitle: ''
       text: |-
-        My slogan is "Social Robots for Social Justice."
-
-        As a Robotics Engineer with +10 years of experience in various domains (Humanoid, Dynamic and Control, Navigation), my current research interests include Behavior Perception, Affective Computing, and Human-Robot Interaction (HRI).
-
-        I aim to understand Social HRI's mechanisms and nuances to develop reliable and transparent conversational AI models for Embodied Conversational Agents (e.g., Robots, Avatars). I firmly believe that an artificial agent can truly connect with humans only when equipped with a certain level of human-like emotional intelligence. Consequently, leveraging foundational Large Language Models (LLMs), my Ph.D. dissertation focuses on developing context-aware affective conversational AIs. My goal is to enhance naturalness, trust, and empathy by fostering stronger bonds between users and agents. This will be achieved through context awareness and emotionally appropriate verbal and nonverbal behaviors.
+        "Social Robots for Social Justice" is my slogan.
+      
+        I strive to uncover the complexities of Social HRI to create reliable and transparent conversational AI models for robots and virtual agents. I believe that true human connection with artificial agents is only possible when they possess a degree of human-like emotional intelligence. My Ph.D. dissertation leverages foundational Large Language Models (LLMs) to develop context-aware affective conversational AIs. Through this work, I aim to enhance naturalness, trust, and empathy, fostering meaningful interactions between users and agents. Ultimately, I hope my efforts advance social justice by making high-quality social services, like healthcare and education, more accessible to underrepresented communities.
         
         Please reach out to collaborate 😃
     design:
