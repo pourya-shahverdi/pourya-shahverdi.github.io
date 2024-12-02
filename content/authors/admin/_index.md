@@ -268,8 +268,8 @@ awards:
 
 I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University, expected to graduate in April 2025. I also lecture at the School of Engineering and Computer Science and serve as a graduate research assistant under Prof. Geoffrey Louie in the IRL² Intelligent Robotics Laboratory.
 
-My research focuses on Human-Robot Interaction (HRI), with applications in autism therapy, physical rehabilitation, and K12 education. My work has been presented at top conferences such as IEEE ICRA and IROS, earning recognition like the "Outstanding Early Career Scientist Paper Award" at IEEE RO-MAN 2022 in Italy.
+As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot's Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals.
 
-I hold a B.Sc. in Robotics Engineering and an M.Sc. in Mechatronics Engineering, where I developed a framework for humanoid motion imitation. I also have nearly a decade of experience mentoring K12 students in RoboCup competitions, achieving world-class honors.
+I hold a B.Sc. in Robotics Engineering and an M.Sc. in Mechatronics Engineering, where my research focused on developing a framework for humanoid motion imitation. I also have nearly a decade of experience mentoring K12 students in RoboCup competitions, achieving world-class honors.
 
 Outside of work, I enjoy playing the piano, basketball, and leading teams to tackle real-world challenges in research and innovation.
