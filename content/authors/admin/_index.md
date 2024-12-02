@@ -266,12 +266,10 @@ awards:
 
 ## About Me
 
-I am currently a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University (Expected graduation date: April 2025). I work as a lecturer at the School of Engineering and Computer Science at Oakland and serve as a graduate research assistant under [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/) in the In Real-Life Intelligent Robotics Laboratory (IRL$^$2). 
+I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University, expected to graduate in April 2025. I also lecture at the School of Engineering and Computer Science and serve as a graduate research assistant under Prof. Geoffrey Louie in the IRL² Intelligent Robotics Laboratory.
 
-Over the last years, I have led and contributed to several impactful HRI projects, including robot-mediated autism therapy for children, job interview training for young people with autism, physical therapy exercises for seniors, and robot-mediated teaching solutions for K12 students. My research has been presented at prestigious top-tier conferences such as IEEE ICRA and IROS and has earned recognition, including the "Outstanding Early Career Scientist Paper Award" at IEEE RO-MAN 2022 in Italy.
+My research focuses on Human-Robot Interaction (HRI), with applications in autism therapy, physical rehabilitation, and K12 education. My work has been presented at top conferences such as IEEE ICRA and IROS, earning recognition like the "Outstanding Early Career Scientist Paper Award" at IEEE RO-MAN 2022 in Italy.
 
-I obtained my B.Sc. in Robotics Engineering in 2013 and my M.Sc. in Mechatronics Engineering in 2017, both from Iran. As my M.Sc. thesis, I developed a framework for imitating human motions by humanoids, where I practically explored the dynamics and control of humanoid robots in the TaarLab Human and Robot Interaction Laboratory at the University of Tehran.
+I hold a B.Sc. in Robotics Engineering and an M.Sc. in Mechatronics Engineering, where I developed a framework for humanoid motion imitation. I also have nearly a decade of experience mentoring K12 students in RoboCup competitions, achieving world-class honors.
 
-In addition to my research, I have served as a K12 RoboCup teacher for about ten years, achieving world-level honors in various national and international venues such as Robocup 2013, Netherlands.
-
-I enjoy learning, coordinating, teaching, and leading teams to overcome real-world challenges in research, innovation, and business. In my free time, I play piano and play basketball.
+Outside of work, I enjoy playing the piano, basketball, and leading teams to tackle real-world challenges in research and innovation.
