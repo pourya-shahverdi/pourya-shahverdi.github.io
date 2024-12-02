@@ -80,7 +80,7 @@ education:
       - Advanced Robotics
       - Mobile Robots (Navigation) 
       - Dynamic System Modeling 
-      - Mechatronics Design (I and II)
+      - Mechatronics Design
   - area: B.Sc. Robotics Engineering
     institution: Hamedan University of Technology
     date_start: 2008
