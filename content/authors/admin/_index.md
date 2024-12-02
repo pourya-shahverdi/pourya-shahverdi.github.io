@@ -62,7 +62,7 @@ education:
       Dissertation on "Emotional Intelligence and Context Awareness in Social HRI" 
       Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
 
-      Courses included:
+      Selected Courses:
       - Human-Robot Interaction 
       - Artificial Intelligence 
       - Advanced Autonomous Vehicle 
@@ -78,7 +78,7 @@ education:
       Thesis on "Whole-Body Imitation of Human Motions by a NAO Humanoid Robot"
       Supervised by [Prof. Mehdi Tale Masouleh](https://profile.ut.ac.ir/en/~m.t.masouleh)
 
-      Courses included:
+      Selected Courses:
       - Advanced Robotics
       - Mobile Robots (Navigation) 
       - Dynamic System Modeling 
@@ -91,7 +91,7 @@ education:
       Final Project on "Balance Recovery Techniques in Humanoid Robots" 
       Supervised by [Prof. Behnam Miripour Fard](https://www.linkedin.com/in/behnam-miripour-fard-33100252/?originalSubdomain=ir)
       
-      Courses included:
+      Selected Courses:
       - Robotic Systems and Control 
       - Robot Sensors 
       - Artificial Neural Networks 
@@ -99,13 +99,15 @@ education:
       - Embedded Programming
 work:
   - position: Graduate Research Assistant
-    company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory (IRL^2) 
+    company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory ($IRL^2$) 
     company_url: ''
     company_logo: ''
     date_start: 2021-01-05
     date_end: ''
     summary: |2-
-      Responsibilities include:
+      Director: [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
+      
+      Responsibilities:
       - Working on my Ph.D. Dissertation Entitled "Emotional Intelligence and Context Awareness in Social HRI" 
       - Leading Original Research Studies in Social HRI in a Variety of Contexts Such as Healthcare to Education
       - Developing AI/ML Frameworks for Social Robot's Verbal and Nonverbal Behaviors
@@ -133,7 +135,7 @@ work:
     date_start: 2018-01-20
     date_end: 2020-12-20
     summary: |2-
-      Responsibilities include:
+      Responsibilities:
       - Designed Syllabus and Educational Platforms in Collaboration with FIRA-International
       - Trained Teachers
       - Created Educational Content for Online Courses
@@ -147,7 +149,7 @@ work:
     date_start: 2012-01-20
     date_end: 2017-12-20
     summary: |
-      Responsibilities include:
+      Responsibilities:
       - Worked on my M.Sc. Thesis Entitled ["Whole-Body Imitation of Human Motions by a NAO Humanoid Robot"](https://youtu.be/0c-mpC6NMfY)
       - Participated in Designing and Manufacturing a 3-DoF Parallel Manipulator (Tripteron)
 
@@ -160,7 +162,7 @@ work:
     summary: |2-
       Course Lecturer: [Prof. Mostafa Ersali]
       
-      Responsibilities include:
+      Responsibilities:
       - Designed a Modular Educational Robot Platform Based on Raspberry Pi and Arduino Capable of Interfacing with Different Sensor and Actuator Modules
       - Taught Lab Experiments of the Course
       - Supervised the Students’ Final Projects
@@ -172,7 +174,7 @@ work:
     date_start: 2013-09-20
     date_end: 2015-04-30
     summary: |
-      Responsibilities include:
+      Responsibilities:
       - Developed a Push Recovery Model Using an Inverted Pendulum Model and a PID Controller
       - Developed a Navigation Model Towards the Opponent’s Gate Utilizing Compass Data
 
@@ -188,7 +190,7 @@ skills:
       - name: C++
         description: ''
         percent: 80
-        icon: chart-bar
+        icon: ''
       - name: R
         description: ''
         percent: 60
@@ -264,8 +266,12 @@ awards:
 
 ## About Me
 
-As a Robotics Engineer with +10 years of experience in various domains (Humanoid, Dynamic and Control, Navigation), my current research interests include Behavior Perception, Affective Computing, and Human-Robot Interaction (HRI).
+I am currently a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University (Expected graduation date: April 2025). I work as a lecturer at the School of Engineering and Computer Science at Oakland and serve as a graduate research assistant under [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/) in the In Real-Life Intelligent Robotics Laboratory ($IRL^2$). 
 
-My slogan is "Social Robots for Social Justice." 
+Over the last years, I have led and contributed to several impactful HRI projects, including robot-mediated autism therapy for children, job interview training for young people with autism, physical therapy exercises for seniors, and robot-mediated teaching solutions for K12 students. My research has been presented at prestigious top-tier conferences such as IEEE ICRA and IROS and has earned recognition, including the "Outstanding Early Career Scientist Paper Award" at IEEE RO-MAN 2022 in Italy.
 
-I aim to understand Social HRI's mechanisms and nuances to develop reliable and transparent conversational AI models for Embodied Conversational Agents (e.g., Robots, Avatars). I firmly believe that an artificial agent can truly connect with humans only when equipped with a certain level of human-like emotional intelligence. Consequently, leveraging foundational Large Language Models (LLMs), my Ph.D. dissertation focuses on developing context-aware affective conversational AIs. My goal is to enhance naturalness, trust, and empathy by fostering stronger bonds between users and agents. This will be achieved through context awareness and emotionally appropriate verbal and nonverbal behaviors.
+I obtained my B.Sc. in Robotics Engineering in 2013 and my M.Sc. in Mechatronics Engineering in 2017, both from Iran. As my M.Sc. thesis, I developed a framework for imitating human motions by humanoids, where I practically explored the dynamics and control of humanoid robots in the TaarLab Human and Robot Interaction Laboratory at the University of Tehran.
+
+In addition to my research, I have served as a K12 RoboCup teacher for about ten years, achieving world-level honors in various national and international venues such as Robocup 2013, Netherlands.
+
+I enjoy learning, coordinating, teaching, and leading teams to overcome real-world challenges in research, innovation, and business. In my free time, I play piano and play basketball.
