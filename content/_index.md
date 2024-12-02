@@ -32,12 +32,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Mission'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My slogan is "Social Robots for Social Justice."
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        As a Robotics Engineer with +10 years of experience in various domains (Humanoid, Dynamic and Control, Navigation), my current research interests include Behavior Perception, Affective Computing, and Human-Robot Interaction (HRI).
+
+        I aim to understand Social HRI's mechanisms and nuances to develop reliable and transparent conversational AI models for Embodied Conversational Agents (e.g., Robots, Avatars). I firmly believe that an artificial agent can truly connect with humans only when equipped with a certain level of human-like emotional intelligence. Consequently, leveraging foundational Large Language Models (LLMs), my Ph.D. dissertation focuses on developing context-aware affective conversational AIs. My goal is to enhance naturalness, trust, and empathy by fostering stronger bonds between users and agents. This will be achieved through context awareness and emotionally appropriate verbal and nonverbal behaviors.
         
         Please reach out to collaborate 😃
     design:
