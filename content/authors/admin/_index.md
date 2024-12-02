@@ -186,7 +186,7 @@ skills:
       - name: Python
         description: ''
         percent: 85
-        icon: code-bracket
+        icon: ''
       - name: C++
         description: ''
         percent: 80
@@ -266,7 +266,7 @@ awards:
 
 ## About Me
 
-I am currently a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University (Expected graduation date: April 2025). I work as a lecturer at the School of Engineering and Computer Science at Oakland and serve as a graduate research assistant under [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/) in the In Real-Life Intelligent Robotics Laboratory ($IRL^2$). 
+I am currently a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University (Expected graduation date: April 2025). I work as a lecturer at the School of Engineering and Computer Science at Oakland and serve as a graduate research assistant under [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/) in the In Real-Life Intelligent Robotics Laboratory (IRL$^$2). 
 
 Over the last years, I have led and contributed to several impactful HRI projects, including robot-mediated autism therapy for children, job interview training for young people with autism, physical therapy exercises for seniors, and robot-mediated teaching solutions for K12 students. My research has been presented at prestigious top-tier conferences such as IEEE ICRA and IROS and has earned recognition, including the "Outstanding Early Career Scientist Paper Award" at IEEE RO-MAN 2022 in Italy.
 
