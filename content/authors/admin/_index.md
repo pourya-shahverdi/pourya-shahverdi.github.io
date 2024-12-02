@@ -55,7 +55,7 @@ interests:
 
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
-    institution: Oakland University
+    institution: Oakland University (MI-USA)
     date_start: 2021-01-05
     date_end: 2025-04-30
     summary: |
@@ -84,7 +84,7 @@ education:
       - Dynamic System Modeling 
       - Mechatronics Design (I and II)
   - area: B.Sc. Robotics Engineering
-    institution: Hamedan University of Technology
+    institution: Hamedan University of Technology (Iran)
     date_start: 2008-09-01
     date_end: 2013-04-30
     summary: |
@@ -99,7 +99,7 @@ education:
       - Embedded Programming
 work:
   - position: Graduate Research Assistant
-    company_name: Oakland University-In Real-Life Intelligent Robotics Laboratory (IRL^2) 
+    company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory (IRL^2) 
     company_url: ''
     company_logo: ''
     date_start: 2021-01-05
@@ -113,20 +113,21 @@ work:
       - Advising Undergraduate Lab Members
 
   - position: Graduate Teaching Assistant (Lab Instructor)
-    company_name: Oakland University-School of Engineering and Computer Science 
+    company_name: Oakland University, School of Engineering and Computer Science 
     company_url: https://oakland.edu/secs/
     company_logo: ''
     date_start: 2021-01-05
     date_end: ''
     summary: |2-
       Course Lecturer: [Prof. Ossamah Rawashdeh](https://www.oakland.edu/secs/directory/rawashdeh/)
+
       Responsibilities include:
       - Instructing the Lab’s Experiments: Arduino Programming, Electronic Circuit Design, Sensors and Actuators
       - Leading and Training Graduate Teacher Assistants
       - Mentoring Sophomore Design Project Team Works
   
   - position: Education Department Chair
-    company_name: Federation of International Robot Sports Association (FIRA)-Iran Chapter  
+    company_name: Federation of International Robot Sports Association (FIRA), Iran Chapter  
     company_url: https://firaworldcup.org
     company_logo: ''
     date_start: 2018-01-20
@@ -140,7 +141,7 @@ work:
   
   
   - position: Researcher
-    company_name: University of Tehran-Taarlab HRI Laboratory
+    company_name: University of Tehran, Taarlab HRI Laboratory
     company_url: https://taarlab.com
     company_logo: ''
     date_start: 2012-01-20
@@ -151,13 +152,14 @@ work:
       - Participated in Designing and Manufacturing a 3-DoF Parallel Manipulator (Tripteron)
 
   - position: Teaching Assistant
-    company_name: University of Tehran-College of Engineering / Electrical and Computer Engineering  
+    company_name: University of Tehran, College of Engineering / Electrical and Computer Engineering  
     company_url: 
     company_logo: ''
     date_start: 2016-09-20
     date_end: 2017-01-20
     summary: |2-
       Course Lecturer: [Prof. Mostafa Ersali]
+      
       Responsibilities include:
       - Designed a Modular Educational Robot Platform Based on Raspberry Pi and Arduino Capable of Interfacing with Different Sensor and Actuator Modules
       - Taught Lab Experiments of the Course
