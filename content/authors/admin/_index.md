@@ -266,10 +266,10 @@ awards:
 
 ## About Me
 
-I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University, expected to graduate in April 2025. I also lecture at the School of Engineering and Computer Science and serve as a graduate research assistant under Prof. Geoffrey Louie in the IRL² Intelligent Robotics Laboratory.
+I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University, expected to graduate in April 2025. I also lecture at the School of Engineering and Computer Science and serve as a graduate research assistant under Prof. [Geoffrey Louie](https://www.geoffrey-louie.com/) in the IRL² Intelligent Robotics Laboratory.
 
-As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot's Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals.
+As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals.
 
 I hold a B.Sc. in Robotics Engineering and an M.Sc. in Mechatronics Engineering, where my research focused on developing a framework for humanoid motion imitation. I also have nearly a decade of experience mentoring K12 students in RoboCup competitions, achieving world-class honors.
 
-Outside of work, I enjoy playing the piano, basketball, and leading teams to tackle real-world challenges in research and innovation.
+Outside of work, I enjoy playing basketball, hiking, cooking, helping my wife with baking, and playing the Piano/Keyboard and Tar/Setar (traditional Persian instruments).
