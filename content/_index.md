@@ -115,8 +115,8 @@ sections:
         
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Pourya Shahverdi
+        url: https://pourya-shahverdi.git
     design:
       card:
         # Card background color (CSS class)
