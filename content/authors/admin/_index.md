@@ -107,11 +107,10 @@ work:
     summary: |2-
       Director: [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
       
-      Responsibilities:
-      - Working on my Ph.D. Dissertation Entitled "Emotional Intelligence and Context Awareness in Social HRI" 
-      - Leading Original Research Studies in Social HRI in a Variety of Contexts Such as Healthcare to Education
+      Responsibilities: 
       - Developing AI/ML Frameworks for Social Robot's Verbal and Nonverbal Behaviors
-      - Collaboration with Other Lab Projects
+      - Leading Original Research Studies in Social HRI
+      - Collaboration with Other Peers on Various Lab Projects
       - Advising Undergraduate Lab Members
 
   - position: Graduate Teaching Assistant (Lab Instructor)
