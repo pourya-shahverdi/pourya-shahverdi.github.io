@@ -25,18 +25,18 @@ links:
   url: https://ieeexplore.ieee.org/abstract/document/8466225
 url_pdf: https://ieeexplore.ieee.org/abstract/document/8466225
 url_code: ''
-url_dataset: '#'
-url_poster: '#'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
+url_source: ''
 url_video: 'https://youtu.be/0c-mpC6NMfY'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  # caption: 'Image credit: [**IEEE**](https://unsplash.com/photos/s9CC2SKySJM)'
-  # focal_point: ""
+  caption: 'Whole-body Human Imitation by NAO'
+  focal_point: ""
   preview_only: true
 
 # Associated Projects (optional).
