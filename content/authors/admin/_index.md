@@ -120,7 +120,7 @@ work:
     date_start: 2021-01-05
     date_end: ''
     summary: |2-
-      Course Lecturer: [Prof. Ossamah Rawashdeh](https://www.oakland.edu/secs/directory/rawashdeh/)
+      Course Lecturer: [Prof. Osamah Rawashdeh](https://www.oakland.edu/secs/directory/rawashdeh/)
 
       Responsibilities include:
       - Instructing the Lab’s Experiments: Arduino Programming, Electronic Circuit Design, Sensors and Actuators
@@ -267,8 +267,7 @@ awards:
 
 I am a fourth-year Ph.D. candidate in Electrical and Computer Engineering at Oakland University, expected to graduate in April 2025. I also lecture at the School of Engineering and Computer Science and serve as a graduate research assistant under Prof. [Geoffrey Louie](https://www.geoffrey-louie.com/) in the IRL² Intelligent Robotics Laboratory.
 
-As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals.
+<!-- As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals. -->
+My research focuses on affective computing, behavior perception, conversational AI/ML, and human factor design for human-robot interaction (HRI/HCI/HMI). I have over 10 years of experience in robotics and accomplished projects in humanoid imitation, manipulation, mobile robot navigation, and autonomous vehicles. I also served as a mentor for K12 students in RoboCup competitions, and achieved world-class honors.
 
-I hold a B.Sc. in Robotics Engineering and an M.Sc. in Mechatronics Engineering, where my research focused on developing a framework for humanoid motion imitation. I also have nearly a decade of experience mentoring K12 students in RoboCup competitions, achieving world-class honors.
-
-Outside of work, I enjoy playing basketball, hiking, cooking, helping my wife with baking, and playing the Piano/Keyboard and Tar/Setar (traditional Persian instruments).
+Outside of work, I enjoy playing basketball, hiking, helping my wife with her bakery, and playing the Piano/Keyboard as well as Tar/Setar (traditional Persian instruments).
