@@ -42,15 +42,6 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: experience
-    id: work
-    content:
-      title: Experience
-      filters:
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
   - block: collection
     id: papers
     content:
