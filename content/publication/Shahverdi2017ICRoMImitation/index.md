@@ -21,10 +21,11 @@ abstract: This paper presents an ankle-based balance strategy for a NAO humanoid
 featured: true
 
 links:
-- name: Custom Link
-  url: https://ieeexplore.ieee.org/abstract/document/8466225
+- name:
+url: ''
 url_pdf: https://ieeexplore.ieee.org/abstract/document/8466225
-url_code: ''
+url_code: 'https://github.com/pourya-shahverdi/Imitation_NAO'
+url_code: 'https://github.com/pourya-shahverdi/HumanoidSim_Mathematica'
 url_dataset: ''
 url_poster: ''
 url_project: ''
