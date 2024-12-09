@@ -184,109 +184,109 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: C++
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: R
         description: ''
-        percent: ''
+        percent: '50'
         icon: ''
       - name: Kotlin
         description: ''
-        percent: ''
+        percent: '40'
         icon: ''
       - name: Matlab
         description: ''
-        percent: ''
+        percent: '60'
         icon: ''
       - name: Mathematica
         description: ''
-        percent: ''
+        percent: '65'
         icon: ''
   - name: AI Tools
     items:
       - name: scikit-learn
-        description: ''
+        description: '75'
         percent: ''
         icon: ''
       - name: PyTorch
         description: ''
-        percent: ''
+        percent: '75'
         icon: ''
       - name: TensorFlow
         description: ''
-        percent: ''
+        percent: '50'
         icon: ''
       - name: OpenCV
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: Hugging Face
-        description: ''
+        description: '60'
         percent: ''
         icon: ''
       - name: LangChain
-        description: ''
+        description: '70'
         percent: ''
         icon: ''
   - name: AI Techniques
     items:
       - name: Natural Language Processing (NLP/NLU)
         description: ''
-        percent: ''
+        percent: '65'
         icon: ''
       - name: Large Language Model (LLM) APIs
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: Chain-of-Thought (CoT) Prompting of LLMs
-        description: ''
+        description: '70'
         percent: ''
         icon: ''
       - name: Supervised and Instructional Fine-Tuning
         description: ''
-        percent: ''
+        percent: '75'
         icon: ''
       - name: Parameter-Efficient Fine-Tuning (PEFT)
-        description: ''
+        description: '65'
         percent: ''
         icon: ''
       - name: Reinforcement Learning
         description: ''
-        percent: ''
+        percent: '50'
         icon: ''
       - name: Time-Series Machine Learning
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
   - name: Robotic and Mechatronic Tools and Techniques
     items:
       - name: ROS/ROS2
-        description: ''
+        description: '80'
         percent: ''
         icon: ''
       - name: Point Cloud Libraries (PCL)
-        description: ''
+        description: '75'
         percent: ''
         icon: ''
       - name: Controller Design and Real-World Implementation
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: Embedded System Design (AVR, ARM) and Real-Time Operating System (RTOS)
         description: ''
-        percent: ''
+        percent: '70'
         icon: ''
       - name: Single Board Microcontroller/Computer Programming (Arduino, Raspberry Pi)
         description: ''
-        percent: ''
+        percent: '80'
         icon: ''
       - name: CAD (Solidworks)
         description: ''
-        percent: ''
+        percent: '60'
         icon: ''
   - name: Hobbies
     color: '#eeac02'
@@ -294,23 +294,26 @@ skills:
     items:
       - name: Basketball
         description: ''
-        percent: 100
+        percent: 80
         # icon: basketball
       - name: Hiking
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Piano
+      - name: Playing Music
         description: ''
-        percent: 80
+        percent: 50
         # icon: piano
 
 languages:
   - name: English
+    percent: 95
     description: 'Fluent'
   - name: Persian
+    percent: 100
     description: 'Mother Tongue'
   - name: Azerbaijani
+    percent: 40 
     description: 'Basic Conversation'
 
 # Awards.
