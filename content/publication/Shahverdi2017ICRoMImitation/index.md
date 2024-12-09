@@ -16,7 +16,7 @@ tags:
   criteria;Kinematics
 
 
-abstract: This paper presents an ankle-based balance strategy for a NAO humanoid robot while imitating the human motions. In this approach, first, an inverted pendulum model based on the computed Center of Mass (CoM) is introduced and then, the support polygon is computed for each double support and single support phases. Center of the support polygon is assumed as the reference for balance controller and Ground projection of the Center of Mass (GCoM) is considered as the balance criteria. Using ankle joints correction, GCoM is restricted to the center of the support polygon. In order to control the balance criteria a Proportional-Integral-Derivative (PID) controller is used. The coefficients are first estimated using Ziegler-Nichols method; then, they were tuned by considering advantages of the imitation process. Implementation of the proposed approach leads to a better result in preserving the balance of the robot in soft realtime imitation of human whole-body and quasi-static motions. The proposed approach is validated by performing simulation and practical tests on a NAO H-25 version 4 robot.
+abstract: ''
 
 featured: true
 
