@@ -12,8 +12,7 @@ publication: '*2017 5th RSI International Conference on Robotics and Mechatronic
   (ICRoM)*'
 doi: 10.1109/ICRoM.2017.8466225
 tags:
-- Humanoid robots;Legged locomotion;Computational modeling;Mathematical model;Stability
-  criteria;Kinematics
+- Humanoid robots; Motion Imitation; Humanoid Dynamic; Balance Control
 
 
 abstract: ''
