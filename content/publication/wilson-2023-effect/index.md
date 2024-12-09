@@ -20,12 +20,12 @@ publication: '*Cureus*'
 doi: 10.7759/cureus.44264
 
 tags:
--  technology; fall prevention; exercise; robotics; physical therapy; social human-robot interaction
+-  technology; fall prevention; exercise; robotics; physical therapy
 
 
 abstract: ''
 
-featured: true
+featured: false
 
 links:
 - name:
@@ -52,7 +52,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- Robot-PhysicalTherapy
+- PhysicalTherapy
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -66,6 +66,7 @@ projects:
 
 ---
 {{< youtube MuxEg3ArODg >}}
+
 **Abstract:**  
 Introduction
 
