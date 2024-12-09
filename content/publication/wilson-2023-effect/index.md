@@ -30,7 +30,7 @@ featured: true
 links:
 - name:
 url: ''
-url_pdf: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10527679'
+url_pdf: https://pmc.ncbi.nlm.nih.gov/articles/PMC10527679
 url_code: ''
 url_dataset: ''
 url_poster: ''
