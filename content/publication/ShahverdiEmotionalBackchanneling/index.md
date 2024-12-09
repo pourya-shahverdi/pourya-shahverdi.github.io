@@ -24,7 +24,7 @@ featured: true
 links:
 - name:
 url: 'https://ieeexplore.ieee.org/abstract/document/10341823'
-url_pdf: https://static1.squarespace.com/static/597e827817bffc7a49fdfe42/t/64df8dd8020ac86a7bb919ce/1692372458551/IROS+2023+Backchannelling.pdf
+url_pdf: 'https://static1.squarespace.com/static/597e827817bffc7a49fdfe42/t/64df8dd8020ac86a7bb919ce/1692372458551/IROS+2023+Backchannelling.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
