@@ -23,8 +23,8 @@ featured: true
 
 links:
 - name:
-url: 'https://ieeexplore.ieee.org/abstract/document/10341823'
-url_pdf: 'https://static1.squarespace.com/static/597e827817bffc7a49fdfe42/t/64df8dd8020ac86a7bb919ce/1692372458551/IROS+2023+Backchannelling.pdf'
+url: ''
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -36,7 +36,7 @@ url_video: 'https://youtu.be/M8Xl5e82oYw'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: 'Emotional Backchanneling'
   focal_point: ""
   preview_only: true
 
@@ -46,7 +46,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- humanoid-imitation
+- backchanneling
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
