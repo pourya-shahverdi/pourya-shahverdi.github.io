@@ -47,13 +47,13 @@ profiles:
     url: https://orcid.org/0000-0002-6634-2463
 
 interests:
-  - Kinematics/Dynamics Modeling and Control
   - Imitation Learning
   - Behavior Perception
   - Affective Computing
   - Conversational AI/ML
   - Social Robotics
   - Human-Robot Interaction (HRI)
+  - Kinematics/Dynamics Modeling and Control
 
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
