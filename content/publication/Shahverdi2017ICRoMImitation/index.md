@@ -25,10 +25,9 @@ links:
 url: ''
 url_pdf: https://ieeexplore.ieee.org/abstract/document/8466225
 url_code: 'https://github.com/pourya-shahverdi/Imitation_NAO'
-url_code: 'https://github.com/pourya-shahverdi/HumanoidSim_Mathematica'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://github.com/pourya-shahverdi/HumanoidSim_Mathematica'
 url_slides: ''
 url_source: ''
 url_video: 'https://youtu.be/0c-mpC6NMfY'
