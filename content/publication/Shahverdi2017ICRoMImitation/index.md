@@ -22,7 +22,7 @@ featured: true
 links:
 - name:
 url: ''
-url_pdf: https://ieeexplore.ieee.org/abstract/document/8466225
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/8466225'
 url_code: 'https://github.com/pourya-shahverdi/Imitation_NAO'
 url_dataset: ''
 url_poster: ''

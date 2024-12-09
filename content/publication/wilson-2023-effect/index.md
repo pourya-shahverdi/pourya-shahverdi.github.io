@@ -30,7 +30,7 @@ featured: true
 links:
 - name:
 url: ''
-url_pdf: https://pmc.ncbi.nlm.nih.gov/articles/PMC10527679
+url_pdf: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10527679'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -39,8 +39,8 @@ url_slides: ''
 url_source: ''
 url_video: 'https://youtu.be/MuxEg3ArODg'
 
-Featured image
-To use, add an image named `featured.jpg/png` to your page's folder. 
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Robot-mediated Physical Therapy'
   focal_point: ""
