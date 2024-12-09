@@ -37,7 +37,7 @@ url_video: 'https://youtu.be/0c-mpC6NMfY'
 image:
   caption: 'Whole-body Human Imitation by [NAO]:(https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
