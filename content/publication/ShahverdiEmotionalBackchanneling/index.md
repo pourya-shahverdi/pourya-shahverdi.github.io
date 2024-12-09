@@ -23,7 +23,7 @@ featured: true
 
 links:
 - name:
-url: ''
+url: 'https://ieeexplore.ieee.org/abstract/document/10341823'
 url_pdf: ''
 url_code: ''
 url_dataset: ''
