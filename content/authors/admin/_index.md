@@ -47,7 +47,7 @@ profiles:
     url: https://orcid.org/0000-0002-6634-2463
 
 interests:
-  - [Humanoid](https://youtu.be/0c-mpC6NMfY) (Manipulation and Balance Control)
+  - [Humanoid](https://youtu.be/0c-mpC6NMfY) Manipulation and Balance Control
   - Behavior Perception
   - Affective Computing
   - Conversational AI/ML
