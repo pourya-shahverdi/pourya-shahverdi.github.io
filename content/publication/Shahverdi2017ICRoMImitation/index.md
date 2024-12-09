@@ -35,7 +35,7 @@ url_video: 'https://youtu.be/0c-mpC6NMfY'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Whole-body Human Imitation by [NAO]:(https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Whole-body Human Imitation by NAO'
   focal_point: ""
   preview_only: false
 
@@ -58,3 +58,4 @@ projects:
 
 
 ---
+{{< youtube 0c-mpC6NMfY >}}
