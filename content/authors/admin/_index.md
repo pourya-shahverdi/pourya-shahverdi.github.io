@@ -53,7 +53,8 @@ interests:
   - Conversational AI/ML
   - Social Robotics
   - Human-Robot Interaction (HRI)
-  - Kinematics/Dynamics Modeling and Control
+  - Kinematic & Dynamic Modeling
+  - Controller Design
 
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
