@@ -275,7 +275,7 @@ skills:
         description: ''
         percent: '65'
         icon: ''
-      - name: Controller Design and Real-World Implementation
+      - name: Controller Design
         description: ''
         percent: '70'
         icon: ''
