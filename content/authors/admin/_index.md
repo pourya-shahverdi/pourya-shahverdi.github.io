@@ -187,7 +187,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: '70'
+        percent: '80'
         icon: ''
       - name: C++
         description: ''
@@ -212,8 +212,8 @@ skills:
   - name: AI Tools
     items:
       - name: scikit-learn
-        description: '75'
-        percent: ''
+        description: ''
+        percent: '75'
         icon: ''
       - name: PyTorch
         description: ''
@@ -228,34 +228,34 @@ skills:
         percent: '70'
         icon: ''
       - name: Hugging Face
-        description: '60'
-        percent: ''
+        description: ''
+        percent: '60'
         icon: ''
       - name: LangChain
-        description: '70'
-        percent: ''
+        description: ''
+        percent: '70'
         icon: ''
   - name: AI Techniques
     items:
       - name: Natural Language Processing (NLP/NLU)
         description: ''
-        percent: '65'
+        percent: '70'
         icon: ''
       - name: Large Language Model (LLM) APIs
         description: ''
         percent: '70'
         icon: ''
       - name: Chain-of-Thought (CoT) Prompting of LLMs
-        description: '70'
-        percent: ''
+        description: ''
+        percent: '70'
         icon: ''
       - name: Supervised and Instructional Fine-Tuning
         description: ''
         percent: '75'
         icon: ''
       - name: Parameter-Efficient Fine-Tuning (PEFT)
-        description: '65'
-        percent: ''
+        description: ''
+        percent: '65'
         icon: ''
       - name: Reinforcement Learning
         description: ''
@@ -268,27 +268,35 @@ skills:
   - name: Robotic and Mechatronic Tools and Techniques
     items:
       - name: ROS/ROS2
-        description: '80'
-        percent: ''
+        description: ''
+        percent: '80'
         icon: ''
       - name: Point Cloud Libraries (PCL)
-        description: '75'
-        percent: ''
+        description: ''
+        percent: '65'
         icon: ''
       - name: Controller Design and Real-World Implementation
         description: ''
         percent: '70'
         icon: ''
-      - name: Embedded System Design (AVR, ARM) and Real-Time Operating System (RTOS)
-        description: ''
+      - name: Embedded System Design 
+        description: 'AVR, ARM'
         percent: '70'
         icon: ''
-      - name: Single Board Microcontroller/Computer Programming (Arduino, Raspberry Pi)
-        description: ''
-        percent: '80'
+      - name: Real-Time Operating System (RTOS) 
+        description: 'FreeRTOS'
+        percent: '50'
         icon: ''
-      - name: CAD (Solidworks)
-        description: ''
+      - name: Single-board Microcontroller
+        description: 'Arduino'
+        percent: '90'
+        icon: ''
+      - name: Single-board Computer
+        description: ' Raspberry Pi, BeagleBoard'
+        percent: '60'
+        icon: ''
+      - name: CAD
+        description: 'Solidworks'
         percent: '60'
         icon: ''
   - name: Hobbies
