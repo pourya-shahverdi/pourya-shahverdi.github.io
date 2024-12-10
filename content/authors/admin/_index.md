@@ -237,32 +237,24 @@ skills:
         icon: ''
   - name: AI Techniques
     items:
-      - name: Natural Language Processing (NLP/NLU)
+      - name: NLP/NLU
         description: ''
         percent: '70'
         icon: ''
-      - name: Large Language Model (LLM) APIs
+      - name: LLM APIs
         description: ''
         percent: '70'
         icon: ''
-      - name: Chain-of-Thought (CoT) Prompting of LLMs
-        description: ''
+      - name: LLMs Prompt Engineering
+        description: 'Chain-of-Thought (CoT) Prompting of LLMs, Supervised and Instructional Fine-Tuning, Parameter-Efficient Fine-Tuning (PEFT)'
         percent: '70'
-        icon: ''
-      - name: Supervised and Instructional Fine-Tuning
-        description: ''
-        percent: '75'
-        icon: ''
-      - name: Parameter-Efficient Fine-Tuning (PEFT)
-        description: ''
-        percent: '65'
         icon: ''
       - name: Reinforcement Learning
-        description: ''
+        description: 'Deep Q-networks'
         percent: '50'
         icon: ''
       - name: Time-Series Machine Learning
-        description: ''
+        description: 'LSTM Networks'
         percent: '70'
         icon: ''
   - name: Robotic and Mechatronic Tools and Techniques
@@ -271,9 +263,9 @@ skills:
         description: ''
         percent: '80'
         icon: ''
-      - name: Point Cloud Libraries (PCL)
-        description: ''
-        percent: '65'
+      - name: C++ Libraries
+        description: 'OpenCV, PCL, Eigen'
+        percent: '70'
         icon: ''
       - name: Controller Design
         description: ''
@@ -297,14 +289,14 @@ skills:
         icon: ''
       - name: CAD
         description: 'Solidworks'
-        percent: '60'
+        percent: '65'
         icon: ''
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Basketball
-        description: ''
+        description: 'Coorditator of the Intermural Oakland United Team'
         percent: 80
         # icon: basketball
       - name: Hiking
