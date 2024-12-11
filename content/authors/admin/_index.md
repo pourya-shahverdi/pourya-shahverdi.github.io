@@ -251,7 +251,7 @@ skills:
         description: ''
         percent: '60'
         icon: ''
-      - name: LLMs Prompt Engineering
+      - name: LLM Prompt Engineering
         description: 'Chain-of-Thought (CoT) Prompting of LLMs, Supervised and Instructional Fine-Tuning, Parameter-Efficient Fine-Tuning (PEFT)'
         percent: '60'
         icon: ''
@@ -303,20 +303,24 @@ skills:
     color: '#80BD9E'
     color_border: '#EFC9AF'
     items:
-      - name: SPSS
+      - name: Linux
         description: ''
-        percent: '70'
+        percent: '80'
+        icon: ''
+      - name: LaTeX
+        description: ''
+        percent: '90'
         icon: ''
       - name: QT Creator
         description: 'Python and C++'
         percent: '75'
         icon: ''
-      - name: Linux
+      - name: SPSS
         description: ''
-        percent: '80'
+        percent: '70'
         icon: ''
       - name: Unreal Engine
-        description: 'Blueprint'
+        description: ''
         percent: '30'
         icon: ''
   - name: Hobbies
