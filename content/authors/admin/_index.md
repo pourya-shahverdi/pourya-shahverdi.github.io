@@ -201,15 +201,15 @@ skills:
         icon: ''
       - name: Kotlin
         description: ''
-        percent: '40'
+        percent: '35'
         icon: ''
       - name: Matlab
         description: ''
-        percent: '60'
+        percent: '50'
         icon: ''
       - name: Mathematica
         description: ''
-        percent: '65'
+        percent: '60'
         icon: ''
   - name: AI Tools
     color: '#F78DA7'
@@ -217,11 +217,11 @@ skills:
     items:
       - name: scikit-learn
         description: ''
-        percent: '75'
+        percent: '65'
         icon: ''
       - name: PyTorch
         description: ''
-        percent: '75'
+        percent: '65'
         icon: ''
       - name: TensorFlow
         description: ''
@@ -237,7 +237,7 @@ skills:
         icon: ''
       - name: LangChain
         description: ''
-        percent: '70'
+        percent: '60'
         icon: ''
   - name: AI Techniques
     color: '#E94E77'
@@ -245,15 +245,15 @@ skills:
     items:
       - name: NLP/NLU
         description: ''
-        percent: '70'
+        percent: '55'
         icon: ''
       - name: LLM APIs
         description: ''
-        percent: '70'
+        percent: '60'
         icon: ''
       - name: LLMs Prompt Engineering
         description: 'Chain-of-Thought (CoT) Prompting of LLMs, Supervised and Instructional Fine-Tuning, Parameter-Efficient Fine-Tuning (PEFT)'
-        percent: '70'
+        percent: '60'
         icon: ''
       - name: Reinforcement Learning
         description: 'Deep Q-networks'
@@ -261,7 +261,7 @@ skills:
         icon: ''
       - name: Time-Series Machine Learning
         description: 'LSTM Networks'
-        percent: '70'
+        percent: '60'
         icon: ''
   - name: Robotic and Mechatronic Tools and Techniques
     color: '#FF6F61'
@@ -281,7 +281,7 @@ skills:
         icon: ''
       - name: Embedded System Design 
         description: 'AVR, ARM'
-        percent: '70'
+        percent: '60'
         icon: ''
       - name: Real-Time Operating System (RTOS) 
         description: 'FreeRTOS'
@@ -305,11 +305,11 @@ skills:
     items:
       - name: SPSS
         description: ''
-        percent: '80'
+        percent: '70'
         icon: ''
       - name: QT Creator
         description: 'Python and C++'
-        percent: '80'
+        percent: '75'
         icon: ''
       - name: Linux
         description: ''
@@ -317,7 +317,7 @@ skills:
         icon: ''
       - name: Unreal Engine
         description: 'Blueprint'
-        percent: '40'
+        percent: '30'
         icon: ''
   - name: Hobbies
     color: '#eeac02'
@@ -333,7 +333,7 @@ skills:
         icon: person-simple-walk
       - name: Playing Music
         description: 'Piano, Keyboard, Tar and Setar (Persian Instruments)'
-        percent: 50
+        percent: 70
         # icon: piano
 
 languages:
