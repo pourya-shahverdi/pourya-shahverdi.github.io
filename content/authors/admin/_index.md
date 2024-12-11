@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Robotics Engineer
+role: Robotics | AI/ML | Affective Computing | HRI/HCI
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -47,7 +47,7 @@ profiles:
     url: https://orcid.org/0000-0002-6634-2463
 
 interests:
-  - Imitation Learning
+  - Robot Learning
   - Behavior Perception
   - Affective Computing
   - Conversational AI/ML
