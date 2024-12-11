@@ -184,6 +184,8 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Programming
+    color: '#4A90E2'
+    color_border: '#7BDCB5'
     items:
       - name: Python
         description: ''
@@ -210,6 +212,8 @@ skills:
         percent: '65'
         icon: ''
   - name: AI Tools
+    color: '#F78DA7'
+    color_border: '#EFC94C'
     items:
       - name: scikit-learn
         description: ''
@@ -236,6 +240,8 @@ skills:
         percent: '70'
         icon: ''
   - name: AI Techniques
+    color: '#E94E77'
+    color_border: '#5D3FD3'
     items:
       - name: NLP/NLU
         description: ''
@@ -258,6 +264,8 @@ skills:
         percent: '70'
         icon: ''
   - name: Robotic and Mechatronic Tools and Techniques
+    color: '#FF6F61'
+    color_border: '#FF6F61'
     items:
       - name: ROS/ROS2
         description: ''
@@ -291,6 +299,26 @@ skills:
         description: 'Solidworks'
         percent: '65'
         icon: ''
+  - name: Miscellaneous
+    color: '#80BD9E'
+    color_border: '#EFC9AF'
+    items:
+      - name: SPSS
+        description: ''
+        percent: '80'
+        icon: ''
+      - name: QT Creator
+        description: 'Python and C++'
+        percent: '80'
+        icon: ''
+      - name: Linux
+        description: ''
+        percent: '80'
+        icon: ''
+      - name: Unreal Engine
+        description: 'Blueprint'
+        percent: '40'
+        icon: ''
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -304,7 +332,7 @@ skills:
         percent: 60
         icon: person-simple-walk
       - name: Playing Music
-        description: ''
+        description: 'Piano, Keyboard, Tar and Setar (Persian Instruments)'
         percent: 50
         # icon: piano
 
