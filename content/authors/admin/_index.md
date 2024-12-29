@@ -271,6 +271,14 @@ skills:
         description: ''
         percent: '80'
         icon: ''
+      - name: Gazebo
+        description: ''
+        percent: '70'
+        icon: ''
+      - name: NVIDIA Isaac Sim
+        description: ''
+        percent: '60'
+        icon: ''
       - name: C++ Libraries
         description: 'OpenCV, PCL, Eigen'
         percent: '70'
