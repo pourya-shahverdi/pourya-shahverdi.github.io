@@ -15,11 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      actions:
-        - text: Download CV
-          url: uploads/PouryaShahverdiJan2025.pdf
-        - text: Download Resume
-          url: uploads/PouryaShahverdiFeb2025Resume.pdf
+      button:
+        text: Download CV
+        url: uploads/PouryaShahverdiJan2025.pdf
     design:
       css_class: dark
       background:
