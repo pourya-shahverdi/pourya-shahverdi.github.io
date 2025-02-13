@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: WebsiteBG1.png
+          filename: BGminimal.webp
           filters:
             brightness: 0.7
           size: cover
