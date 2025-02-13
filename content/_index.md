@@ -29,7 +29,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: BGminimal.webp
+          filename: BGRobotSpace.jpg
           filters:
             brightness: 0.7
           size: cover
