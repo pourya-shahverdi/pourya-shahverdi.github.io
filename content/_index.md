@@ -32,6 +32,11 @@ sections:
           parallax: false
   - block: markdown
     content:
+      text: |
+        <a href="uploads/PouryaShahverdiJan2025.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+        <a href="uploads/PouryaShahverdiFeb2025Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+  - block: markdown
+    content:
       title: '📚 My Mission'
       subtitle: ''
       text: |-
