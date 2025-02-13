@@ -9,6 +9,11 @@ design:
   spacing: "6rem"
 
 sections:
+  - block: markdown
+    content:
+      text: |
+        <a href="uploads/PouryaShahverdiJan2025.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+        <a href="uploads/PouryaShahverdiFeb2025Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
@@ -30,11 +35,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      text: |
-        <a href="uploads/PouryaShahverdiJan2025.pdf" class="btn btn-primary" target="_blank">Download CV</a>
-        <a href="uploads/PouryaShahverdiFeb2025Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
   - block: markdown
     content:
       title: '📚 My Mission'
