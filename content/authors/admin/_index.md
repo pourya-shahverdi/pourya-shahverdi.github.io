@@ -50,11 +50,8 @@ interests:
   - Social Robotics
   - Human-Agent Interaction
   - Affective Computing
-  - Behavior Perception
   - Robot Learning from Demonstration
-  - Conversational AI/ML
-  - Kinematic & Dynamic Modeling
-  - Controller Design
+  - Humanoids
 
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
