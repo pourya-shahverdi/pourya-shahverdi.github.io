@@ -47,12 +47,12 @@ profiles:
     url: https://orcid.org/0000-0002-6634-2463
 
 interests:
-  - Robot Learning
-  - Behavior Perception
-  - Affective Computing
-  - Conversational AI/ML
   - Social Robotics
-  - Human-Robot Interaction (HRI)
+  - Human-Agent Interaction
+  - Affective Computing
+  - Behavior Perception
+  - Robot Learning from Demonstration (Imitation Learning)
+  - Conversational AI/ML
   - Kinematic & Dynamic Modeling
   - Controller Design
 
