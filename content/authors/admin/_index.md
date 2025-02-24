@@ -210,7 +210,7 @@ skills:
         icon: ''
       - name: Kotlin
         description: ''
-        percent: '35'
+        percent: '30'
         icon: ''
       
   - name: AI Tools
