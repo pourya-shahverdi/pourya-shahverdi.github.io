@@ -186,11 +186,23 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: '80'
+        percent: '90'
         icon: ''
       - name: C++
         description: ''
+        percent: '80'
+        icon: ''
+      - name: Matlab
+        description: ''
         percent: '70'
+        icon: ''  
+      - name: Simulink
+        description: ''
+        percent: '60'
+        icon: ''
+      - name: Mathematica
+        description: ''
+        percent: '60'
         icon: ''
       - name: R
         description: ''
@@ -200,37 +212,38 @@ skills:
         description: ''
         percent: '35'
         icon: ''
-      - name: Matlab
-        description: ''
-        percent: '50'
-        icon: ''
-      - name: Mathematica
-        description: ''
-        percent: '60'
-        icon: ''
+      
   - name: AI Tools
     color: '#F78DA7'
     color_border: '#EFC94C'
     items:
-      - name: scikit-learn
+      - name: OpenCV
         description: ''
-        percent: '65'
+        percent: '70'
         icon: ''
       - name: PyTorch
         description: ''
-        percent: '65'
+        percent: '70'
+        icon: ''
+      - name: scikit-learn
+        description: ''
+        percent: '70'
         icon: ''
       - name: TensorFlow
         description: ''
         percent: '50'
         icon: ''
-      - name: OpenCV
+      - name: Keras
         description: ''
-        percent: '70'
+        percent: '40'
+        icon: ''
+      - name: JAX
+        description: ''
+        percent: '30'
         icon: ''
       - name: Hugging Face
         description: ''
-        percent: '60'
+        percent: '30'
         icon: ''
       - name: LangChain
         description: ''
@@ -310,7 +323,7 @@ skills:
     items:
       - name: Linux
         description: ''
-        percent: '80'
+        percent: '90'
         icon: ''
       - name: LaTeX
         description: ''
@@ -318,7 +331,7 @@ skills:
         icon: ''
       - name: QT Creator
         description: 'Python and C++'
-        percent: '75'
+        percent: '90'
         icon: ''
       - name: SPSS
         description: ''
