@@ -57,7 +57,7 @@ education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
     institution: Oakland University (MI-USA)
     date_start: 2021-01-05
-    date_end: 2025
+    date_end: 2025-12-25
     summary: |
       Dissertation on "Emotional Intelligence and Context Awareness in Social HRI" 
       Supervised by [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
