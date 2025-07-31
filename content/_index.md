@@ -35,22 +35,22 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Mission'
-      subtitle: ''
-      text: |-
-        "Social Agents for Social Justice!"
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Mission'
+  #     subtitle: ''
+  #     text: |-
+  #       "Social Agents for Social Justice!"
       
-        My goal is to uncover the complexities of Social Human-Agent/Robot Interaction to create reliable and transparent behavior models for robots and autonomous agents. I believe that true human connection with artificial agents is only possible when they possess a degree of human-like emotional intelligence. My dissertation focuses on developing emotionally context-aware verbal and nonverbal behavior models for social robots and autonomous agents to enhance empathy, engagement, and efficacy in human-agent interactions.
+  #       My goal is to uncover the complexities of Social Human-Agent/Robot Interaction to create reliable and transparent behavior models for robots and autonomous agents. I believe that true human connection with artificial agents is only possible when they possess a degree of human-like emotional intelligence. My dissertation focuses on developing emotionally context-aware verbal and nonverbal behavior models for social robots and autonomous agents to enhance empathy, engagement, and efficacy in human-agent interactions.
         
-        My research involves designing and conducting user studies to explore the nuances and dynamics of both group and one-on-one interactions, employing quantitative and qualitative analyses of objective and subjective measurements derived from behavioral observations and multimodal sensory signals. Grounded in affective and cognitive theories, I leverage multimodal AI approaches to model and perceive context, user affective states, and cognitive processes,enabling the generation of emotionally context-aware agent behaviors for real-world social applications. 
+  #       My research involves designing and conducting user studies to explore the nuances and dynamics of both group and one-on-one interactions, employing quantitative and qualitative analyses of objective and subjective measurements derived from behavioral observations and multimodal sensory signals. Grounded in affective and cognitive theories, I leverage multimodal AI approaches to model and perceive context, user affective states, and cognitive processes,enabling the generation of emotionally context-aware agent behaviors for real-world social applications. 
         
-        My work has been applied to social Human-Agent Interaction applications in autism therapy, physical therapy, and education, leading to publications in top-tier venues such as ICRA, IROS, and RO-MAN. Ultimately, I hope my efforts advance social justice by making high-quality social services, like healthcare and education, more accessible to underrepresented communities.
+  #       My work has been applied to social Human-Agent Interaction applications in autism therapy, physical therapy, and education, leading to publications in top-tier venues such as ICRA, IROS, and RO-MAN. Ultimately, I hope my efforts advance social justice by making high-quality social services, like healthcare and education, more accessible to underrepresented communities.
         
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
