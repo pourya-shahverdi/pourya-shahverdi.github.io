@@ -406,7 +406,7 @@ languages:
 <!-- I am a Ph.D. candidate in Electrical and Computer Engineering at Oakland University, Michigan. I work as a graduate Research Assistant under Prof. [Geoffrey Louie](https://www.geoffrey-louie.com/) in the [IRL²](https://www.linkedin.com/company/irl2): In Real-Life Intelligent Robotics Laboratory. -->
 
 <!-- As a Robotics Engineer with more than 10 years of experience across various domains, including Dynamics, Control, Manipulation, and Navigation, my research currently focuses on Social Robot Learning and its dimensions, including Affective Computing, Behavior Perception, Conversational AI/ML, and Human-Robot Interaction (HRI). I publish my work in top-tier conferences and journals. -->
-I work on the agentic AI's context-awareness and emotional intelligence. I integrate social science into machine learning models and affective computing systems to achieve realistic human-level behaviors for embodied conversational agents such as social robots and virtual avatars. My research serves different industry sectors such as healthcare, finance, education, real estate, customer service, human resource, etc.
+I work on the agentic AI's context-awareness and emotional intelligence. I integrate social science into machine learning models and affective computing systems to achieve realistic human-level behaviors for embodied conversational agents such as social robots and virtual avatars. My research serves different industry sectors such as healthcare, education, customer service, human resource, etc.
 
 I have over 10 years of experience in robotics, identifying myself as a generalist by accomplishing projects in humanoid whole-body imitation, manipulation, mobile robot navigation, and autonomous vehicles.
 
