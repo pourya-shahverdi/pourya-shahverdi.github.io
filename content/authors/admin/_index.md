@@ -98,7 +98,7 @@ education:
       - Fuzzy Systems and Control
       - Embedded Programming
 work:
-  - position: Graduate Research Assistant
+  - position: Lead Researcher
     company_name: Oakland University, In Real-Life Intelligent Robotics Laboratory (IRL$^$2) 
     company_url: ''
     company_logo: ''
@@ -108,12 +108,11 @@ work:
       Director: [Prof. Geoffrey Louie](https://www.geoffrey-louie.com/)
       
       Responsibilities: 
-      - Developing AI/ML Frameworks for Social Robot's Verbal and Nonverbal Behaviors
-      - Leading Original Research Studies in Social HRI
-      - Collaboration with Other Peers on Various Lab Projects
+      - Leading Original Research Studies in Human-AI/Robot Interaction
+      - Developing Generative AI/ML Frameworks for Social Robot and Virtual Avatar's Verbal and Nonverbal Behaviors
       - Advising Undergraduate Lab Members
 
-  - position: Graduate Teaching Assistant (Lab Instructor)
+  - position: Lab Instructor
     company_name: Oakland University, School of Engineering and Computer Science 
     company_url: https://oakland.edu/secs/
     company_logo: ''
@@ -123,22 +122,23 @@ work:
       Course Lecturer: [Prof. Osamah Rawashdeh](https://www.oakland.edu/secs/directory/rawashdeh/)
 
       Responsibilities include:
-      - Instructing the Lab’s Experiments: Arduino Programming, Electronic Circuit Design, Sensors and Actuators
+      - Instructing the Lab’s Experiments: Embedded Programming, Electronic Circuit Design, Sensors and Actuators
       - Leading and Training Graduate Teacher Assistants
-      - Mentoring Sophomore Design Project Team Works
+      - Mentoring Senior and Sophomore Design Project Team Works
   
-  - position: Education Department Chair
-    company_name: Federation of International Robot Sports Association (FIRA), Iran Chapter  
+  - position: R&D Lead
+    company_name: Federation of International Robot Sports Association (FIRA), Taipei, Taiwan
     company_url: https://firaworldcup.org
     company_logo: ''
     date_start: 2018-01-20
     date_end: 2020-12-20
     summary: |2-
       Responsibilities:
-      - Designed Syllabus and Educational Platforms in Collaboration with FIRA-International
-      - Trained Teachers
-      - Created Educational Content for Online Courses
-      - Designed Competitions for FIRA-Iran and FIRA-International
+      - Designed and Organized the Innovation and Business League
+      - Led Syllabus and Educational Platform Products 
+      - Led the Content Production Team for Online Trainings
+      - Trained Educators
+      
   
   
   - position: Researcher
@@ -150,7 +150,7 @@ work:
     summary: |
       Responsibilities:
       - Worked on my M.Sc. Thesis Entitled ["Whole-Body Imitation of Human Motions by a NAO Humanoid Robot"](https://youtu.be/0c-mpC6NMfY)
-      - Participated in Designing and Manufacturing a 3-DoF Parallel Manipulator (Tripteron)
+      - Spearheaded the Team of Drive and GUI of a 3-DoF Parallel Manipulator (Tripteron)
 
   - position: Teaching Assistant
     company_name: University of Tehran, College of Engineering / Electrical and Computer Engineering  
@@ -162,11 +162,11 @@ work:
       Course Lecturer: [Prof. Mostafa Ersali]
       
       Responsibilities:
-      - Designed a Modular Educational Robot Platform Based on Raspberry Pi and Arduino Capable of Interfacing with Different Sensor and Actuator Modules
+      - Designed a Modular Educational Robot Platform Based on Raspberry Pi and Arduino Capable of Interfacing with Different Sensors and Actuator Modules
       - Taught Lab Experiments of the Course
       - Supervised the Students’ Final Projects
   
-  - position: Internship (part-time)
+  - position: Internship
     company_name: Mechatronics Research Laboratory (MRL)
     company_url: https://sites.google.com/view/mrl-hsl/home?authuser=0
     company_logo: ''
