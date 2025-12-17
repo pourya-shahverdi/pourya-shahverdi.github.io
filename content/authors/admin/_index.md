@@ -71,7 +71,7 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
   - area: M.Sc. Mechatronics Engineering
-    institution: Azad University of Qazvin (Iran)
+    institution: University of Tehran and Azad University of Qazvin (Iran)
     date_start: 2013-09-01
     date_end: 2016-01-15
     summary: |
