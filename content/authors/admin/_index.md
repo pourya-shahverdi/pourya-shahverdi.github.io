@@ -48,10 +48,10 @@ profiles:
 
 interests:
   - Social Robotics
-  - Human-Agent Interaction
+  - Human-Robot Interaction
   - Affective Computing
   - Robot Learning from Demonstration
-  - Humanoids
+  - Humanoid
 
 education:
   - area: Ph.D. Candidate in Electrical and Computer Engineering
