@@ -403,6 +403,6 @@ languages:
 
 ## About Me
 
-I build social robots and virtual agents that can understand, adapt to, and influence human behavior in socially and emotionally meaningful ways. My work connects three fields: robotics, artificial intelligence, and psychology, to create expressive, reliable, and emotionally intelligent AI for real-world applications.
+I build artificail emotional intelligence for social robots and virtual agents to make them understand, adaptively respond, and influence human behavior in socially and emotionally meaningful ways. To achieve this goal, my work connects three fields: robotics, artificial intelligence, and human science.
 
 If you are interested in this, feel free to reach out. I welcome opportunities for collaboration, discussion, and innovation.
