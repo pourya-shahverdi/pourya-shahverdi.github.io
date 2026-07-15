@@ -1,0 +1,10 @@
+{{/*
+  Local override: simplified render_view
+  Accepts a dict with keys: page, item, index, view, config
+  Renders a minimal article link to avoid theme template incompatibilities.
+*/}}
+{{ $item := .item }}
+<article class="hb-item simple-item">
+  <h3 class="hb-item-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
+  {{ with $item.Summary }}<p class="hb-item-summary">{{ . }}</p>{{ end }}
+</article>
