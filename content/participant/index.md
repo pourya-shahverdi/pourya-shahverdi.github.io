@@ -17,11 +17,23 @@ To publish your Google Calendar on this page:
 4. In the Integrate calendar section, copy the embed code.
 5. Replace the placeholder below with your calendar embed code.
 
-<div style="border: 1px solid #d0d7de; border-radius: 0.5rem; padding: 1rem; background: #f6f8fa; margin: 1.5rem 0;">
-  <p><strong>Replace this section with your Google Calendar embed code.</strong></p>
-  <pre><code>&lt;iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID%40group.calendar.google.com&amp;ctz=America%2FNew_York"
-style="border: 0" width="800" height="600" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;</code></pre>
-</div>
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1SUM1r73zZSZIBV3eUP2i5PHKN8XRRVuQSwa2mrpryw1dFgDk-kHa65-Sr_n7g2Pi0UZ7rySU0?gv=true',
+      color: '#7CB342',
+      label: "Book a Session Here",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
 
 ## Contact
 
