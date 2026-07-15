@@ -1,0 +1,15 @@
+{{/* Safe local override: render authors from page params */}}
+{{ $page := . }}
+{{ $authors := $page.Params.authors }}
+{{ if not $authors }}
+  {{ if $page.Params.author }}
+    {{ $authors = slice $page.Params.author }}
+  {{ end }}
+{{ end }}
+{{ if $authors }}
+  <span class="page-authors">
+  {{ range $i, $a := $authors }}
+    {{ if gt $i 0 }}, {{ end }}{{ $a }}
+  {{ end }}
+  </span>
+{{ end }}
