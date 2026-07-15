@@ -1,0 +1,12 @@
+{{/* Simplified article-grid view to avoid theme method calls */}}
+{{ if .item }}
+  {{ partial "functions/render_view.html" (dict "item" .item) }}
+{{ else if .page }}
+  {{ range .page.Pages }}
+    {{ partial "functions/render_view.html" (dict "item" .) }}
+  {{ end }}
+{{ else if .items }}
+  {{ range .items }}
+    {{ partial "functions/render_view.html" (dict "item" .) }}
+  {{ end }}
+{{ end }}
