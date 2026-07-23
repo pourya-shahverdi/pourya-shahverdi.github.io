@@ -1,19 +1,30 @@
-{{ if eq .index 0 }}
-  <div class="featured-video-grid" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;width:100%;max-width:72rem;">
+{{ $item := .item }}
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
-{{ $videoID := .item.Params.url_video | replaceRE `^https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)` "" | replaceRE `[?&].*$` "" }}
-{{ if and $videoID (ne $videoID "#") }}
-  <article style="aspect-ratio:1 / 1;overflow:hidden;background:#000;">
-    <iframe
-      src="https://www.youtube-nocookie.com/embed/{{ $videoID }}?rel=0"
-      title="{{ .item.Title }}"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-      allowfullscreen
-      style="display:block;width:100%;height:100%;border:0;"
-    ></iframe>
-  </article>
-{{ end }}
-{{ if eq (add .index 1) .config.len }}
+
+<article class="group">
+  {{ with partial "functions/get_featured_image.html" $item }}
+    <a class="relative block aspect-video overflow-hidden rounded-md bg-gray-100 dark:bg-gray-800" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <img
+        alt="{{ $item.Title | plainify }}"
+        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        decoding="async"
+        loading="lazy"
+        src="{{ .RelPermalink }}">
+    </a>
+  {{ end }}
+  <div class="mt-3">
+    {{ with index $item.Params.tags 0 }}
+      <span class="text-xs font-medium uppercase text-primary-700 dark:text-primary-300">{{ . }}</span>
+    {{ end }}
+    <h2 class="mt-2 text-lg font-semibold leading-snug dark:text-white">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    </h2>
+    {{ with ($item.Params.summary | default $item.Summary) }}
+      <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">{{ . | plainify | htmlUnescape | chomp }}</p>
+    {{ end }}
   </div>
-{{ end }}
+</article>

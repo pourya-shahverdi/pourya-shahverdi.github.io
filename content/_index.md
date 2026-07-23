@@ -61,7 +61,7 @@ sections:
         featured_only: true
       count: 4
     design:
-      view: article-grid
+      view: video-grid
       columns: 2
       rows: 2 
   - block: collection

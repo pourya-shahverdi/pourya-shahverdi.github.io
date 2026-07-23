@@ -1,0 +1,17 @@
+{{ $taxonomy := "authors" }}
+{{ with .Params.authors }}
+  {{ range $index, $value := $.GetTerms $taxonomy }}
+    {{ $highlightName := .Page.Params.highlight_name | default false }}
+    {{ if gt $index 0 }}, {{ end }}
+    <span {{ if $highlightName }}class="font-bold"{{ end }}>
+      {{ if .RelPermalink }}
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ else }}
+        {{ .LinkTitle }}
+      {{ end }}
+    </span>
+    {{ with index $.Params.author_notes $index }}
+      <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
+    {{ end }}
+  {{ end }}
+{{ end }}

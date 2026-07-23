@@ -1,14 +1,19 @@
+{{ $page := .page }}
+{{ $item := .item }}
 {{ $view := lower .view | default "card" }}
 {{ $fragment := .fragment | default "body" }}
-{{ $config := .config | default dict }}
-{{ if and (eq $view "article-grid") $config.len }}
-  {{ if eq $fragment "body" }}
-    {{ partial "views/article-grid" (dict "item" .item "index" .index "config" $config) }}
-  {{ end }}
-{{ else if and (eq $fragment "body") .item.Title }}
-  <article class="hb-card" style="margin-bottom:1rem;">
-    <div style="padding:0.75rem 1rem;background:transparent">
-      <h3 style="margin:0;font-size:1.05rem"><a href="{{ .item.RelPermalink }}">{{ .item.Title }}</a></h3>
-    </div>
-  </article>
+{{ $index := .index }}
+{{ $html := "" }}
+
+{{ if not (templates.Exists (printf "partials/views/%s.html" $view)) }}
+  {{ warnf "Failed to locate view at `partials/views/%s.html`. Check you specified a supported view in `%s`" $view $page.File.Path }}
+  {{ $view = "card" }}
 {{ end }}
+
+{{ if eq $fragment "body" }}
+  {{ $html = partial (printf "views/%s" $view) (dict "page" $page "item" $item "index" $index "config" (.config | default dict)) }}
+{{ else if templates.Exists (printf "partials/views/%s.%s.html" $view $fragment) }}
+  {{ $html = partial (printf "views/%s.%s" $view $fragment) (dict "page" $page "item" $item "index" $index "config" (.config | default dict)) }}
+{{ end }}
+
+{{ return $html }}
