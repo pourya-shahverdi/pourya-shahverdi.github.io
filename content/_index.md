@@ -35,6 +35,15 @@ sections:
           size: cover
           position: center
           parallax: false
+  - block: cta-card
+    content:
+      title: Register to Participate in our Robotics Research Study Here!
+      button:
+        text: Register Here
+        url: /participate/
+    design:
+      card:
+        css_class: "bg-primary-700"
   # - block: markdown
   #   content:
   #     title: '📚 My Mission'
