@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | Pourya Shahverdi</title><link>https://pourya-shahverdi.github.io/tags/hugo/</link><atom:link href="https://pourya-shahverdi.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://pourya-shahverdi.github.io/media/icon_hu_ae25fe0b68ba5f9a.png</url><title>Hugo</title><link>https://pourya-shahverdi.github.io/tags/hugo/</link></image><item><title>Pandas</title><link>https://pourya-shahverdi.github.io/project/pandas/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/pandas/</guid><description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description></item><item><title>PyTorch</title><link>https://pourya-shahverdi.github.io/project/pytorch/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/pytorch/</guid><description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description></item><item><title>scikit-learn</title><link>https://pourya-shahverdi.github.io/project/scikit/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/scikit/</guid><description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://pourya-shahverdi.github.io/post/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/post/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo | Pourya Shahverdi</title><link>https://pourya-shahverdi.github.io/tags/hugo/</link><atom:link href="https://pourya-shahverdi.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>Hugo</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://pourya-shahverdi.github.io/media/icon_hu_ae25fe0b68ba5f9a.png</url><title>Hugo</title><link>https://pourya-shahverdi.github.io/tags/hugo/</link></image><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://pourya-shahverdi.github.io/post/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/post/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id="charts"&gt;Charts&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports the popular
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-764129853" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-987216543" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -21,7 +21,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-764129853', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-987216543', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();

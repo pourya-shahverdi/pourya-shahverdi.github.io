@@ -94,7 +94,7 @@ for your site. Themes are fully customizable.&lt;/p&gt;
 &lt;p&gt;Copyright 2016-present
 .&lt;/p&gt;
 &lt;p&gt;Released under the
-license.&lt;/p&gt;</description></item><item><title>Pandas</title><link>https://pourya-shahverdi.github.io/project/pandas/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/pandas/</guid><description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description></item><item><title>PyTorch</title><link>https://pourya-shahverdi.github.io/project/pytorch/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/pytorch/</guid><description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description></item><item><title>scikit-learn</title><link>https://pourya-shahverdi.github.io/project/scikit/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/scikit/</guid><description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://pourya-shahverdi.github.io/post/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/post/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
+license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://pourya-shahverdi.github.io/post/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/post/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
 &lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
@@ -201,7 +201,7 @@ console.log('code block');
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-764129853" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-987216543" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 async function fetchChartJSON() {
 console.debug('Hugo Blox fetching chart JSON...')
@@ -217,7 +217,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-764129853', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-987216543', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();

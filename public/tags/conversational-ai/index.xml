@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conversational AI | Pourya Shahverdi</title><link>https://pourya-shahverdi.github.io/tags/conversational-ai/</link><atom:link href="https://pourya-shahverdi.github.io/tags/conversational-ai/index.xml" rel="self" type="application/rss+xml"/><description>Conversational AI</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://pourya-shahverdi.github.io/media/icon_hu_ae25fe0b68ba5f9a.png</url><title>Conversational AI</title><link>https://pourya-shahverdi.github.io/tags/conversational-ai/</link></image><item><title>Emotionally Specific Backchanneling</title><link>https://pourya-shahverdi.github.io/project/emotionally-specific-backchanneling/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/emotionally-specific-backchanneling/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Backchannels are the small verbal and nonverbal signals that communicate attention, understanding, and emotional engagement during conversation. This project examined how emotionally specific backchannels differ between human-human interaction and social human-robot interaction.&lt;/p&gt;
+&lt;h2 id="research-focus"&gt;Research Focus&lt;/h2&gt;
+&lt;p&gt;Rather than assuming that models trained on human conversation can be transferred directly to robots, the study compared interaction behavior across emotional contexts, including happy and sad exchanges. The goal was to identify where robot behavior needs its own interaction model instead of a direct copy of human data.&lt;/p&gt;
+&lt;h2 id="contribution"&gt;Contribution&lt;/h2&gt;
+&lt;p&gt;The findings showed meaningful differences in emotionally specific backchanneling between human-human and human-robot settings. Those differences provide design evidence for interaction models that are better calibrated to a robot&amp;rsquo;s social role, helping make feedback more context-aware, intelligible, and engaging.&lt;/p&gt;
+&lt;h2 id="project-links"&gt;Project Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

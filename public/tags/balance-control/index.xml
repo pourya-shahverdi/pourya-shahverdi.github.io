@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Balance Control | Pourya Shahverdi</title><link>https://pourya-shahverdi.github.io/tags/balance-control/</link><atom:link href="https://pourya-shahverdi.github.io/tags/balance-control/index.xml" rel="self" type="application/rss+xml"/><description>Balance Control</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><image><url>https://pourya-shahverdi.github.io/media/icon_hu_ae25fe0b68ba5f9a.png</url><title>Balance Control</title><link>https://pourya-shahverdi.github.io/tags/balance-control/</link></image><item><title>NAO Human Motion Imitation</title><link>https://pourya-shahverdi.github.io/project/nao-human-motion-imitation/</link><pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate><guid>https://pourya-shahverdi.github.io/project/nao-human-motion-imitation/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This project developed an ankle-based balance strategy that enables a NAO humanoid robot to imitate human motion while preserving stability. The work connects whole-body imitation with balance control so that a humanoid can reproduce a demonstrator&amp;rsquo;s movement without losing its support constraints.&lt;/p&gt;
+&lt;h2 id="technical-approach"&gt;Technical Approach&lt;/h2&gt;
+&lt;p&gt;The controller uses an inverted-pendulum model based on the robot&amp;rsquo;s computed center of mass, calculates support polygons for double- and single-support phases, and treats the ground projection of the center of mass as a balance criterion. Ankle-joint corrections are produced with a PID controller whose initial coefficients were estimated with the Ziegler-Nichols method and then tuned for imitation behavior.&lt;/p&gt;
+&lt;h2 id="contribution"&gt;Contribution&lt;/h2&gt;
+&lt;p&gt;Simulation and practical tests on a NAO H-25 V4 showed that the approach improves balance during soft-real-time whole-body and quasi-static imitation. The project demonstrates a control-oriented route to more stable, expressive humanoid imitation for human-robot interaction research.&lt;/p&gt;
+&lt;h2 id="project-links"&gt;Project Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
