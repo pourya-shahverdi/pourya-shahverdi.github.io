@@ -22,7 +22,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/PouryaShahverdiMay2026CV.pdf
+        url: uploads/PouryaShahverdiAug2026CV.pdf
     design:
       css_class: dark
       background:
