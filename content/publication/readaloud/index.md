@@ -7,8 +7,9 @@ authors:
 - Evan Dallas
 - Wing-Yue Geoffrey Louie
 date: '2026-01-01'
-publishDate: '2024-12-02T01:59:53.981796Z'
+weight: 2
+publishDate: '2026-08-28T03:50:58.265681Z'
 publication_types:
 - article-journal
-publication: '*Computers & Education-Under Review*'
+publication: '*Computers & Education*'
 ---

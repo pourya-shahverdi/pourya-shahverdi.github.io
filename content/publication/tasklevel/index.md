@@ -12,7 +12,8 @@ authors:
 - Kendra Barnett
 - Iman Bakhoda
 date: '2024-01-01'
-publishDate: '2024-12-02T01:59:53.987836Z'
+weight: 3
+publishDate: '2026-08-28T03:50:58.272066Z'
 publication_types:
 - paper-conference
 publication: '*2024 33rd IEEE International Conference on Robot and Human Interactive

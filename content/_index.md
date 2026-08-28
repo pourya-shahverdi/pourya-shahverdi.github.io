@@ -78,6 +78,8 @@ sections:
       title: Recent Publications
       text: ""
       count: 10
+      sort_by: PublishDate
+      sort_ascending: true
       filters:
         folders:
           - publication

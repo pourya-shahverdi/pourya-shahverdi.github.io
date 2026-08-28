@@ -10,7 +10,8 @@ authors:
 - Iman Bakhoda
 - Pourya Shahverdi
 date: '2024-01-01'
-publishDate: '2024-12-02T01:59:53.994217Z'
+weight: 4
+publishDate: '2026-08-28T03:50:58.279006Z'
 publication_types:
 - paper-conference
 publication: '*2024 33rd IEEE International Conference on Robot and Human Interactive

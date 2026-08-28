@@ -8,7 +8,8 @@ authors:
 - Justin Klotz
 - Wing-Yue Geoffrey Louie
 date: '2024-01-01'
-publishDate: '2024-12-02T01:59:54.000478Z'
+weight: 5
+publishDate: '2026-08-28T03:50:58.285610Z'
 publication_types:
 - paper-conference
 publication: '*2024 IEEE International Conference on Robotics and Automation (ICRA)*'

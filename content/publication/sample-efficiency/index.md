@@ -9,7 +9,8 @@ authors:
 - Osamah A. Rawashdeh
 - Wing-Yue Geoffrey Louie
 date: '2022-01-01'
-publishDate: '2024-12-02T01:59:54.038637Z'
+weight: 11
+publishDate: '2026-08-28T03:50:58.324659Z'
 publication_types:
 - paper-conference
 publication: '*2022 31st IEEE International Conference on Robot and Human Interactive

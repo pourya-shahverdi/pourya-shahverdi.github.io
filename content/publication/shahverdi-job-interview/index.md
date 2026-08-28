@@ -8,7 +8,8 @@ authors:
 - Kristin Rohrbeck
 - Wing-Yue Geoffrey Louie
 date: '2023-01-01'
-publishDate: '2024-12-02T01:59:54.026059Z'
+weight: 9
+publishDate: '2026-08-28T03:50:58.311817Z'
 publication_types:
 - paper-conference
 publication: '*2023 32nd IEEE International Conference on Robot and Human Interactive

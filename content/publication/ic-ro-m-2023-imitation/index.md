@@ -10,7 +10,8 @@ authors:
 - Ahmad Kalhor
 - Wing-Yue Geoffrey Louie
 date: '2023-01-01'
-publishDate: '2024-12-02T01:59:54.013395Z'
+weight: 7
+publishDate: '2026-08-28T03:50:58.298706Z'
 publication_types:
 - paper-conference
 publication: '*2023 11th RSI International Conference on Robotics and Mechatronics

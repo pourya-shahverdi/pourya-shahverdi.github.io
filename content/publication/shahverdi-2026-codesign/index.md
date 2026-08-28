@@ -9,7 +9,8 @@ authors:
 - Jessica Korneder
 - Wing-Yue Geoffrey Louie
 date: '2026-01-01'
-publishDate: '2026-08-28T03:43:10.038167Z'
+weight: 1
+publishDate: '2026-08-28T03:50:58.256005Z'
 publication_types:
 - paper-conference
 publication: '*2026 IEEE 35th International Conference on Robot and Human Interactive

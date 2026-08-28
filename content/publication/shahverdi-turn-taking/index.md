@@ -7,7 +7,8 @@ authors:
 - Madeline Trombly
 - Wing-Yue Geoffrey Louie
 date: '2022-01-01'
-publishDate: '2024-12-02T01:59:54.032345Z'
+weight: 10
+publishDate: '2026-08-28T03:50:58.318295Z'
 publication_types:
 - paper-conference
 publication: '*2022 IEEE/RSJ International Conference on Intelligent Robots and Systems
