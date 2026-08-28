@@ -7,7 +7,7 @@ authors:
 - Ahmad Kalhor
 - Pourya Shahverdi
 date: '2018-01-01'
-publishDate: '2024-12-02T01:59:54.051087Z'
+publishDate: '2026-08-28T03:40:16.022135Z'
 publication_types:
 - article-journal
 publication: '*Robotics and autonomous systems*'
