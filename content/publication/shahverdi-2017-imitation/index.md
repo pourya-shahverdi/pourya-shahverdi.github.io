@@ -5,7 +5,7 @@ authors:
 - Pourya Shahverdi
 - Mehdi Tale Masouleh
 date: '2017-01-01'
-publishDate: '2024-12-02T01:59:54.063347Z'
+publishDate: '2026-08-28T03:40:16.033369Z'
 publication_types:
 - article-journal
 publication: '*Modares Mechanical Engineering*'
