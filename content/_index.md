@@ -66,8 +66,7 @@ sections:
       title: Featured Projects
       filters:
         folders:
-          - publication
-        featured_only: true
+          - project
       count: 4
     design:
       view: video-grid

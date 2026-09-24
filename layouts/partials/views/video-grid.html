@@ -1,5 +1,10 @@
-{{ $videoID := .item.Params.url_video | replaceRE `^https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)` "" | replaceRE `[?&].*$` "" }}
-{{ if and $videoID (ne $videoID "#") }}
+{{ $videoURL := .item.Params.video_url }}
+{{ if not $videoURL }}{{ $videoURL = .item.Params.url_video }}{{ end }}
+{{ $videoID := "" }}
+{{ with $videoURL }}
+  {{ $videoID = printf "%v" . | replaceRE `^https?://(?:www\.)?(?:youtube\.com/(?:watch\?v=|embed/)|youtu\.be/)` "" | replaceRE `[?&].*$` "" | replaceRE `[^A-Za-z0-9_-].*$` "" }}
+{{ end }}
+{{ if and $videoID (ne $videoID "#") (ne $videoID "") }}
   <article style="aspect-ratio:1 / 1;overflow:hidden;background:#000;">
     <iframe
       src="https://www.youtube-nocookie.com/embed/{{ $videoID }}?rel=0"
