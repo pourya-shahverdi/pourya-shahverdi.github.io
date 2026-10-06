@@ -1,52 +1,77 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Pourya Shahverdi
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+**Robotics & AI/ML Engineer · Ph.D. Candidate in ECE, Oakland University (defending Nov 2026) · Lead Researcher, In Real-Life Intelligent Robotics Lab (IRL2)**
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+I build social robots that perceive and respond to human affect: real-time multimodal perception (face, voice, gesture), conversational and turn-taking behavior, and the study infrastructure to test it all with real people. My work sits where human-robot interaction, affective computing, and robot learning meet.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+> **Open to research scientist and robotics engineer roles** in HRI, affective computing, and multimodal perception, starting late 2026.<br>
+> [CV (PDF)](https://pourya-shahverdi.github.io/uploads/PouryaShahverdiAug2026CV.pdf) · [pourya.shahverdi@gmail.com](mailto:pourya.shahverdi@gmail.com)
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+[Website](https://pourya-shahverdi.github.io) · [Google Scholar](https://scholar.google.com/citations?user=lhc1WDQAAAAJ) · [LinkedIn](https://www.linkedin.com/in/pourya-shahverdi/) · [YouTube](https://www.youtube.com/PouryaShahverdi) · [ORCID](https://orcid.org/0000-0002-6634-2463) · [X](https://x.com/PouryaShahverdi)
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+## Highlights
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+- **5 first-author papers** at ICRA, IROS (×2), and RO-MAN (×2), plus 5 co-authored papers, including *Computers & Education*
+- **Real-time multimodal perception platform**: 10 Dockerized services for facial emotion, valence–arousal, speech recognition (Whisper, NVIDIA Riva), and gesture, with WebRTC media transport
+- **66-participant user study** of trainee affect during robot-mediated behavioral skills training
+- **135 autonomous robot-mediated BST trials** run end to end
+- **On-prem LLM serving**: Llama 3.3 70B deployed across multiple GPUs
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Featured projects
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+| Project | What it does | Stack |
+|---|---|---|
+| [**HRI Perception Platform**](https://github.com/Intelligent-Robotics-Lab/hri_perception_platform) | Microservice perception stack for live human-robot interaction. An orchestrator coordinates facial emotion (HSEmotion, EmotiEffLib), valence–arousal, speech recognition, and gesture services, with WebRTC media transport, an edge client, and a documented latency budget. | Python · Docker Compose · WebRTC · Whisper · NVIDIA Riva |
+| [**BST Data Collection Platform**](https://github.com/Intelligent-Robotics-Lab/bst-data-collection-platform) | Local-first app that runs a complete robot-mediated BST/DTT study session: experimenter console, participant-tablet self-reports, raw A/V capture, and perception-signal ingest. Designed for zero data loss and immutable raw data. | FastAPI · SQLAlchemy · SQLite · React |
+| [**MakiMate**](https://github.com/Intelligent-Robotics-Lab/MakiMate) | ROS 2 Jazzy codebase for the Maki social robot. Dockerized, multi-arch (ARM64 / x86) images on GHCR, so the team can develop from Linux, macOS, or Windows. | ROS 2 · Docker · GHCR |
+| [**NAO Few-Shot Learning from Demonstration**](https://github.com/pourya-shahverdi/ManipulationFewShotLfD) | A NAO humanoid learns pick-and-place and pushing from a few Kinect-captured human demonstrations, in CoppeliaSim and on the real robot. | Python · PyTorch · CoppeliaSim · Kinect |
+| [**NAO Whole-Body Imitation**](https://github.com/pourya-shahverdi/Imitation_NAO) | Real-time imitation of human whole-body motion with balance control (CoM and support polygon), built on a [full-body kinematics model](https://github.com/pourya-shahverdi/HumanoidSim_Mathematica). | Python · ROS · Mathematica |
+| [**HRI Stats Tutorial**](https://github.com/pourya-shahverdi/hri-stats-tutorial) | A Quarto book that teaches mixed-effects and ordinal models for HRI user studies in R, with a real study as the running example. | R · Quarto |
 
-## We ask you, humbly, to support this open source movement
+## Robots in action
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.youtube.com/watch?v=M8Xl5e82oYw"><img src="https://i.ytimg.com/vi/M8Xl5e82oYw/mqdefault.jpg" alt="Robot backchanneling and interactive storytelling demo" width="100%"></a>
+      <br><sub>Emotional backchanneling and interactive storytelling (IROS '23, ICRA '24)</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.youtube.com/watch?v=MuxEg3ArODg"><img src="https://i.ytimg.com/vi/MuxEg3ArODg/mqdefault.jpg" alt="Robot-led physical therapy for older adults" width="100%"></a>
+      <br><sub>Robot-led physical therapy for older adults</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.youtube.com/watch?v=c37KEdAKoII"><img src="https://i.ytimg.com/vi/c37KEdAKoII/mqdefault.jpg" alt="Robot-mediated group instruction for children with autism" width="100%"></a>
+      <br><sub>Robot-mediated group instruction for children with autism (pilot)</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.youtube.com/watch?v=0c-mpC6NMfY"><img src="https://i.ytimg.com/vi/0c-mpC6NMfY/mqdefault.jpg" alt="NAO humanoid imitating human whole-body motion" width="100%"></a>
+      <br><sub>Real-time whole-body imitation on a NAO humanoid</sub>
+    </td>
+  </tr>
+</table>
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+## Selected publications (first author)
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+- **Co-Design of a Robot-Mediated Training Program for Informal Caregivers to Learn to Deliver Interventions to Children with Autism**. RO-MAN 2026
+- **Exploring the Impact of Narrator Type on Response Latency and Utterance Length During Interactive Storytelling**. ICRA 2024 · [DOI](https://doi.org/10.1109/ICRA57147.2024.10610817)
+- **Emotionally Specific Backchanneling in Social Human-Robot Interaction and Human-Human Interaction**. IROS 2023 · [DOI](https://doi.org/10.1109/IROS55552.2023.10341823) · [Video](https://www.youtube.com/watch?v=M8Xl5e82oYw)
+- **Robot-mediated Job Interview Training for Individuals with ASD: A Pilot Study**. RO-MAN 2023 · [DOI](https://doi.org/10.1109/RO-MAN57019.2023.10309611)
+- **Learning Turn-Taking Behavior from Human Demonstrations for Social Human-Robot Interactions**. IROS 2022 · [DOI](https://doi.org/10.1109/IROS47612.2022.9981243)
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+[All publications →](https://pourya-shahverdi.github.io/publication/)
 
-## Demo image credits
+## Toolbox
 
-- [Unsplash](https://unsplash.com)
+- **Robotics:** ROS / ROS 2, NAO, Maki, CoppeliaSim, humanoid kinematics and balance control
+- **ML & perception:** PyTorch, facial emotion and valence–arousal recognition, ASR (Whisper, NVIDIA Riva), LLM serving
+- **Engineering:** Python, C++, Docker / Compose, FastAPI, WebRTC, SQLite
+- **Research methods:** user-study design, mixed-effects and ordinal models in R, Quarto
 
-## Latest news
+## Before the Ph.D.
 
-<!--START_SECTION:news-->
-
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://hugoblox.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://hugoblox.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://hugoblox.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
+- **Controls and humanoid robotics research**: NAO balance control and whole-body imitation, PID controller tuning, and dynamic identification of a parallel mechanism (RAS 2018)
+- **R&D Lead, FIRA** (2018–2020)
+- **M.Sc. Mechatronics Engineering**, University of Tehran / Azad University of Qazvin · **B.Sc. Robotics Engineering**, Hamedan University of Technology
