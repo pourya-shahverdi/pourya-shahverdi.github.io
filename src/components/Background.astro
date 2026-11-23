@@ -1,0 +1,50 @@
+---
+import { honors, education, skills } from '../data/site';
+---
+<section id="background" class="container-home scroll-mt-20 py-16">
+  <div class="border-b border-line pb-4">
+    <p class="eyebrow">04 · Background</p>
+    <h2 class="section-title mt-2">Recognition, Leadership &amp; Toolbox</h2>
+  </div>
+
+  <div class="mt-8 grid gap-12 lg:grid-cols-2 lg:gap-16">
+    <div>
+      <h3 class="eyebrow">Honors &amp; Service</h3>
+      <ul class="mt-4 divide-y divide-line border-y border-line">
+        {honors.map((h) => (
+          <li class="py-3">
+            <p class="text-[14.5px] font-medium">{h.title}</p>
+            <p class="mt-0.5 font-mono text-[11px] text-muted">{h.meta}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="eyebrow">Education</h3>
+      <ul class="mt-4 divide-y divide-line border-y border-line">
+        {education.map((e) => (
+          <li class="py-3">
+            <p class="text-[14.5px] font-medium">{e.degree}</p>
+            <p class="mt-0.5 flex flex-wrap justify-between gap-x-4 text-sm text-muted">
+              <span>{e.school}</span>
+              <span class="font-mono text-[11px] leading-5">{e.date}</span>
+            </p>
+          </li>
+        ))}
+      </ul>
+
+      <h3 class="eyebrow mt-10">Technical Stack</h3>
+      <dl class="mt-4 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2">
+        {skills.map((s) => (
+          <div class="bg-surface p-4">
+            <dt class="text-[13px] font-semibold">{s.group}</dt>
+            <dd class="mt-2 flex flex-wrap gap-1">
+              {s.items.map((i) => <span class="tag">{i}</span>)}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </div>
+</section>

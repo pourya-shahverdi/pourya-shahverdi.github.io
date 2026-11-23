@@ -1,11 +1,11 @@
 # Pourya Shahverdi
 
-**Robotics & AI/ML Engineer · Ph.D. Candidate in ECE, Oakland University (defending Nov 2026) · Lead Researcher, In Real-Life Intelligent Robotics Lab (IRL2)**
+**Robotics & AI/ML Engineer · Ph.D. Candidate in ECE, Oakland University (defense scheduled Dec 2026) · Lead Researcher, In Real-Life Intelligent Robotics Lab (IRL2)**
 
 I build social robots that perceive and respond to human affect: real-time multimodal perception (face, voice, gesture), conversational and turn-taking behavior, and the study infrastructure to test it all with real people. My work sits where human-robot interaction, affective computing, and robot learning meet.
 
 > **Open to research scientist and robotics engineer roles** in HRI, affective computing, and multimodal perception, starting late 2026.<br>
-> [CV (PDF)](https://pourya-shahverdi.github.io/uploads/PouryaShahverdiAug2026CV.pdf) · [pourya.shahverdi@gmail.com](mailto:pourya.shahverdi@gmail.com)
+> [CV (PDF)](https://pourya-shahverdi.github.io/uploads/PouryaShahverdiCV.pdf) · [pourya.shahverdi@gmail.com](mailto:pourya.shahverdi@gmail.com)
 
 [Website](https://pourya-shahverdi.github.io) · [Google Scholar](https://scholar.google.com/citations?user=lhc1WDQAAAAJ) · [LinkedIn](https://www.linkedin.com/in/pourya-shahverdi/) · [YouTube](https://www.youtube.com/PouryaShahverdi) · [ORCID](https://orcid.org/0000-0002-6634-2463) · [X](https://x.com/PouryaShahverdi)
 
@@ -22,7 +22,7 @@ I build social robots that perceive and respond to human affect: real-time multi
 | Project | What it does | Stack |
 |---|---|---|
 | [**HRI Perception Platform**](https://github.com/Intelligent-Robotics-Lab/hri_perception_platform) | Microservice perception stack for live human-robot interaction. An orchestrator coordinates facial emotion (HSEmotion, EmotiEffLib), valence–arousal, speech recognition, and gesture services, with WebRTC media transport, an edge client, and a documented latency budget. | Python · Docker Compose · WebRTC · Whisper · NVIDIA Riva |
-| [**BST Data Collection Platform**](https://github.com/Intelligent-Robotics-Lab/bst-data-collection-platform) | Local-first app that runs a complete robot-mediated BST/DTT study session: experimenter console, participant-tablet self-reports, raw A/V capture, and perception-signal ingest. Designed for zero data loss and immutable raw data. | FastAPI · SQLAlchemy · SQLite · React |
+| [**BST Data Collection Platform**](https://github.com/Intelligent-Robotics-Lab/bst-data-collection-platform) | Local-first app that runs a complete robot-mediated BST/DTT study session: experimenter console, participant-tablet self-reports, raw A/V capture, and perception-signal ingest. Designed for zero data loss and immutable raw data. | FastAPI · SQLAlchemy · SQLite · HTML/JS |
 | [**MakiMate**](https://github.com/Intelligent-Robotics-Lab/MakiMate) | ROS 2 Jazzy codebase for the Maki social robot. Dockerized, multi-arch (ARM64 / x86) images on GHCR, so the team can develop from Linux, macOS, or Windows. | ROS 2 · Docker · GHCR |
 | [**NAO Few-Shot Learning from Demonstration**](https://github.com/pourya-shahverdi/ManipulationFewShotLfD) | A NAO humanoid learns pick-and-place and pushing from a few Kinect-captured human demonstrations, in CoppeliaSim and on the real robot. | Python · PyTorch · CoppeliaSim · Kinect |
 | [**NAO Whole-Body Imitation**](https://github.com/pourya-shahverdi/Imitation_NAO) | Real-time imitation of human whole-body motion with balance control (CoM and support polygon), built on a [full-body kinematics model](https://github.com/pourya-shahverdi/HumanoidSim_Mathematica). | Python · ROS · Mathematica |

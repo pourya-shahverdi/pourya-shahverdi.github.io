@@ -1,0 +1,126 @@
+---
+import Icon from './Icon.astro';
+import {
+  sortedPublications,
+  pubCounts,
+  isSelected,
+  displayAuthors,
+  primaryLink,
+  toBibtex,
+} from '../data/publications';
+
+const filters = [
+  { key: 'selected', label: 'Selected (First/Co-First)', count: pubCounts.selected },
+  { key: 'all', label: 'All', count: pubCounts.all },
+  { key: 'journal', label: 'Journals', count: pubCounts.journal },
+  { key: 'conference', label: 'Conferences', count: pubCounts.conference },
+  { key: 'preprint', label: 'Preprints & Under Review', count: pubCounts.preprint },
+];
+---
+<section id="publications" class="container-home scroll-mt-20 py-16">
+  <div class="border-b border-line pb-4">
+    <p class="eyebrow">03 · Publications</p>
+    <h2 class="section-title mt-2">Publications</h2>
+    <p class="mt-2 text-sm text-muted">
+      <span class="font-mono">*</span> denotes equal contribution (co-first authors).
+    </p>
+  </div>
+
+  <div class="mt-6 flex flex-wrap gap-2" role="toolbar" aria-label="Filter publications">
+    {filters.map((f) => (
+      <button
+        type="button"
+        class="pub-filter rounded-full border border-line px-3 py-1 text-[13px] text-muted transition-colors hover:text-fg aria-pressed:border-fg aria-pressed:bg-fg aria-pressed:text-bg"
+        data-filter={f.key}
+        aria-pressed={f.key === 'selected' ? 'true' : 'false'}
+      >
+        {f.label} <span class="font-mono text-[11px] opacity-70">({f.count})</span>
+      </button>
+    ))}
+  </div>
+
+  <ol id="pub-list" class="mt-6 divide-y divide-line border-y border-line">
+    {sortedPublications.map((p) => {
+      const groups = ['all', p.type, isSelected(p) ? 'selected' : ''].filter(Boolean).join(' ');
+      const link = primaryLink(p);
+      return (
+        <li class="pub-item grid gap-2 py-5 sm:grid-cols-[4.5rem_1fr] sm:gap-6" data-groups={groups} hidden={!isSelected(p)}>
+          <span class="font-mono text-xs text-muted sm:pt-1">{p.year}</span>
+          <div>
+            <h3 class="text-[15.5px] font-medium leading-snug">{p.title}</h3>
+            <p class="mt-1.5 text-sm leading-relaxed text-muted">
+              {displayAuthors(p).map((a, i, arr) => (
+                <>
+                  {a.me ? <strong class="font-semibold text-fg">{a.name}{a.equal && '*'}</strong> : <span>{a.name}{a.equal && '*'}</span>}
+                  {i < arr.length - 1 ? ', ' : ''}
+                </>
+              ))}
+              {p.etAl && <span>, et al.</span>}
+            </p>
+            <div class="mt-2 flex flex-wrap items-center gap-2">
+              <span class="badge">{p.venueShort}</span>
+              {p.award && (
+                <span class="inline-flex items-center gap-1 rounded border border-amber-500/40 bg-amber-500/10 px-1.5 py-0.5 font-mono text-[11px] leading-4 text-amber-700 dark:text-amber-300">
+                  <Icon name="award" size={12} /> {p.award}
+                </span>
+              )}
+            </div>
+            <div class="mt-3 flex flex-wrap gap-1.5">
+              {link && <a class="btn-xs" href={link.href} target="_blank" rel="noopener noreferrer">{link.label}</a>}
+              {p.arxiv && <a class="btn-xs" href={`https://arxiv.org/abs/${p.arxiv}`} target="_blank" rel="noopener noreferrer">arXiv</a>}
+              {p.demo && <a class="btn-xs" href={p.demo} target="_blank" rel="noopener noreferrer">Demo</a>}
+              {p.code && <a class="btn-xs" href={p.code} target="_blank" rel="noopener noreferrer">Code</a>}
+              <button type="button" class="btn-xs bib-copy" data-bib={toBibtex(p)} aria-label={`Copy BibTeX for ${p.title}`}>
+                <Icon name="copy" size={11} /> <span class="bib-label">BibTeX</span>
+              </button>
+            </div>
+          </div>
+        </li>
+      );
+    })}
+  </ol>
+</section>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.pub-filter');
+  const items = document.querySelectorAll<HTMLLIElement>('.pub-item');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.filter ?? 'all';
+      buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+      items.forEach((li) => {
+        li.hidden = !(li.dataset.groups ?? '').split(' ').includes(key);
+      });
+    });
+  });
+
+  async function copyText(text: string) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand('copy');
+      ta.remove();
+      return ok;
+    }
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.bib-copy').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const label = btn.querySelector('.bib-label');
+      const ok = await copyText(btn.dataset.bib ?? '');
+      if (label) {
+        label.textContent = ok ? 'Copied!' : 'Copy failed';
+        setTimeout(() => (label.textContent = 'BibTeX'), 1600);
+      }
+    });
+  });
+</script>
