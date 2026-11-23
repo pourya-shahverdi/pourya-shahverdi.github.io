@@ -1,0 +1,57 @@
+---
+import Icon from './Icon.astro';
+import { site, socials, bio } from '../data/site';
+---
+<section class="container-home pt-16 sm:pt-24">
+  <div class="flex flex-col-reverse gap-8 sm:flex-row sm:items-start sm:justify-between">
+    <div class="max-w-2xl">
+      <p class="eyebrow">Ph.D. Candidate in ECE · Oakland University · Defense scheduled Dec 2026</p>
+      <h1 class="mt-4 text-4xl font-semibold leading-[1.08] sm:text-5xl">{site.name}</h1>
+      <p class="mt-3 text-lg font-medium tracking-[-0.01em] text-fg sm:text-xl">
+        Applied Scientist <span class="text-muted">(HRI &amp; Affective AI)</span>
+        <span class="text-muted">·</span> Robotics Engineer
+      </p>
+      <div class="mt-6 space-y-3 text-[15.5px] leading-relaxed text-muted">
+        {bio.map((para) => <p>{para}</p>)}
+      </div>
+    </div>
+    <img
+      src="/media/pourya.jpeg"
+      alt="Portrait of Pourya Shahverdi"
+      width="112"
+      height="112"
+      class="h-20 w-20 shrink-0 rounded-full border border-line object-cover object-top sm:h-28 sm:w-28"
+    />
+  </div>
+
+  <div class="mt-7 inline-flex items-start gap-2.5 rounded-full border border-line bg-surface px-3.5 py-1.5 text-[13px] text-fg">
+    <span class="relative mt-[5px] flex h-2 w-2 shrink-0">
+      <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-50 motion-reduce:hidden"></span>
+      <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+    </span>
+    <span>Open to Applied Scientist &amp; Forward-Deployed Robotics roles · Open to relocation · No visa sponsorship required</span>
+  </div>
+
+  <div class="mt-7 flex flex-wrap items-center gap-x-4 gap-y-3">
+    <div class="flex flex-wrap items-center gap-2">
+      <a href={site.resume} target="_blank" rel="noopener" class="btn-primary"><Icon name="download" size={15} /> Resume (2-page)</a>
+      <a href={site.cv} target="_blank" rel="noopener" class="btn py-2"><Icon name="file" size={15} /> Full CV</a>
+    </div>
+    <ul class="flex flex-wrap items-center gap-1">
+      {socials.map((s) => (
+        <li>
+          <a
+            href={s.href}
+            class="inline-flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm text-muted transition-colors hover:text-fg"
+            {...(s.icon === 'mail' ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
+            aria-label={s.label}
+            title={s.icon === 'mail' ? site.email : s.label}
+          >
+            <Icon name={s.icon} size={16} />
+            <span class="hidden lg:inline">{s.label}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

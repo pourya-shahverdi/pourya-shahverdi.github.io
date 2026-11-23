@@ -1,0 +1,99 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+
+export async function getStaticPaths() {
+  const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+  return projects.map((entry, i) => ({
+    params: { slug: entry.id },
+    props: {
+      entry,
+      prev: i > 0 ? projects[i - 1] : undefined,
+      next: i < projects.length - 1 ? projects[i + 1] : undefined,
+    },
+  }));
+}
+
+const { entry, prev, next } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+<Base title={`${d.title} — Pourya Shahverdi`} description={d.summary}>
+  <article class="container-prose pt-12 pb-8 sm:pt-16">
+    <a href="/#projects" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-fg">
+      <Icon name="arrowLeft" size={14} /> Back to Home
+    </a>
+
+    <header class="mt-10 border-b border-line pb-10">
+      <p class="eyebrow">Project write-up</p>
+      <h1 class="mt-3 text-3xl font-semibold leading-tight sm:text-[2.5rem]">{d.title}</h1>
+      <p class="mt-4 text-lg leading-relaxed text-muted">{d.summary}</p>
+      {d.badge && (
+        <p class="mt-4 inline-flex items-center gap-1.5 rounded border border-accent/30 bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
+          <Icon name="award" size={13} /> {d.badge}
+        </p>
+      )}
+
+      <dl class="mt-8 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-[1fr_1fr_2fr]">
+        <div class="bg-surface p-4">
+          <dt class="eyebrow">Role</dt>
+          <dd class="mt-1.5 text-sm font-medium">{d.role}</dd>
+        </div>
+        <div class="bg-surface p-4">
+          <dt class="eyebrow">Year</dt>
+          <dd class="mt-1.5 font-mono text-sm">{d.year}</dd>
+        </div>
+        <div class="bg-surface p-4">
+          <dt class="eyebrow">Stack</dt>
+          <dd class="mt-2 flex flex-wrap gap-1">{d.stack.map((s) => <span class="tag">{s}</span>)}</dd>
+        </div>
+      </dl>
+
+      {d.venues.length > 0 && (
+        <div class="mt-4 flex flex-wrap gap-1.5">{d.venues.map((v) => <span class="badge">{v}</span>)}</div>
+      )}
+
+      {(d.github.length > 0 || d.paper || d.demo) && (
+        <div class="mt-6 flex flex-wrap gap-2">
+          {d.github.map((g) => (
+            <a class="btn" href={g.href} target="_blank" rel="noopener noreferrer">
+              <Icon name="github" size={15} /> {d.github.length > 1 ? g.label : 'GitHub'}
+            </a>
+          ))}
+          {d.paper && (
+            <a class="btn" href={d.paper.href} target="_blank" rel="noopener noreferrer">
+              <Icon name="file" size={15} /> Paper · {d.paper.label}
+            </a>
+          )}
+          {d.demo && (
+            <a class="btn" href={d.demo} target="_blank" rel="noopener noreferrer">
+              <Icon name="youtube" size={15} /> Demo Video
+            </a>
+          )}
+        </div>
+      )}
+    </header>
+
+    <div class="prose prose-neutral mt-10 max-w-none dark:prose-invert prose-headings:tracking-[-0.02em] prose-headings:font-semibold prose-h2:mt-12 prose-h2:text-xl prose-a:text-accent prose-strong:text-fg prose-p:text-muted prose-li:text-muted prose-li:marker:text-line">
+      <Content />
+    </div>
+  </article>
+
+  <nav class="container-prose mt-8" aria-label="Project navigation">
+    <div class="grid gap-3 border-t border-line pt-8 sm:grid-cols-2">
+      {prev ? (
+        <a href={`/projects/${prev.id}/`} class="card p-4 transition-colors hover:border-fg/30">
+          <span class="eyebrow">← Previous Project</span>
+          <span class="mt-1.5 block text-sm font-medium">{prev.data.title}</span>
+        </a>
+      ) : <span />}
+      {next && (
+        <a href={`/projects/${next.id}/`} class="card p-4 text-right transition-colors hover:border-fg/30 sm:col-start-2">
+          <span class="eyebrow">Next Project →</span>
+          <span class="mt-1.5 block text-sm font-medium">{next.data.title}</span>
+        </a>
+      )}
+    </div>
+  </nav>
+</Base>

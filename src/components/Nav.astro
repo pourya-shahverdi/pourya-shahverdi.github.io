@@ -1,0 +1,61 @@
+---
+import Icon from './Icon.astro';
+import { site } from '../data/site';
+
+const links = [
+  { label: 'Demos', href: '/#demos' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Publications', href: '/#publications' },
+  { label: 'Background', href: '/#background' },
+];
+---
+<header class="sticky top-0 z-40 border-b border-line bg-bg/80 backdrop-blur-md">
+  <nav class="container-home flex h-14 items-center justify-between gap-4" aria-label="Primary">
+    <a href="/" class="text-[15px] font-semibold tracking-[-0.02em] text-fg">{site.name}</a>
+    <div class="flex items-center gap-1 sm:gap-2">
+      <ul class="hidden items-center gap-1 md:flex">
+        {links.map((l) => (
+          <li>
+            <a href={l.href} class="rounded px-2.5 py-1.5 text-sm text-muted transition-colors hover:text-fg">{l.label}</a>
+          </li>
+        ))}
+      </ul>
+      <a
+        href={site.resume}
+        target="_blank"
+        rel="noopener"
+        class="ml-1 rounded-full border border-line px-2.5 py-1 text-[13px] font-medium text-fg transition-colors hover:border-fg/40 sm:px-3"
+      >Resume</a>
+      <a
+        href={site.cv}
+        target="_blank"
+        rel="noopener"
+        class="rounded-full border border-line px-2.5 py-1 text-[13px] font-medium text-fg transition-colors hover:border-fg/40 sm:px-3"
+      >CV</a>
+      <button
+        type="button"
+        id="theme-toggle"
+        class="ml-1 inline-flex h-8 w-8 items-center justify-center rounded-md text-muted transition-colors hover:text-fg"
+        aria-label="Toggle dark mode"
+      >
+        <Icon name="moon" class="block dark:hidden" />
+        <Icon name="sun" class="hidden dark:block" />
+      </button>
+    </div>
+  </nav>
+  <ul class="container-home flex gap-1 overflow-x-auto pb-2 md:hidden">
+    {links.map((l) => (
+      <li><a href={l.href} class="whitespace-nowrap rounded px-2 py-1 text-[13px] text-muted hover:text-fg">{l.label}</a></li>
+    ))}
+  </ul>
+</header>
+
+<script>
+  const btn = document.getElementById('theme-toggle');
+  btn?.addEventListener('click', () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    try {
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+    } catch {}
+  });
+</script>

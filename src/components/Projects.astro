@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import Icon from './Icon.astro';
+import { moreWork } from '../data/site';
+
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+---
+<section id="projects" class="container-home scroll-mt-20 py-16">
+  <div class="border-b border-line pb-4">
+    <p class="eyebrow">02 · Projects</p>
+    <h2 class="section-title mt-2">Featured Systems &amp; Projects</h2>
+  </div>
+
+  <ul class="mt-8 grid gap-5 md:grid-cols-2">
+    {projects.map((p, i) => (
+      <li class:list={['card flex flex-col p-6 transition-colors hover:border-fg/30', i === projects.length - 1 && projects.length % 2 === 1 && 'md:col-span-2']}>
+        <div class="flex items-start justify-between gap-3">
+          <span class="font-mono text-xs text-muted">{String(i + 1).padStart(2, '0')}</span>
+          <span class="font-mono text-[11px] text-muted">{p.data.year}</span>
+        </div>
+        <h3 class="mt-3 text-lg font-semibold leading-snug">
+          <a href={`/projects/${p.id}/`} class="hover:text-accent">{p.data.title}</a>
+        </h3>
+        {p.data.badge && (
+          <p class="mt-2 inline-flex w-fit items-center gap-1.5 rounded border border-accent/30 bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
+            <Icon name="award" size={13} /> {p.data.badge}
+          </p>
+        )}
+        <p class="mt-3 text-[14.5px] leading-relaxed text-muted">{p.data.cardSummary}</p>
+        <ul class="mt-4 flex flex-wrap gap-1.5">
+          {p.data.stack.slice(0, 7).map((s) => <li class="tag">{s}</li>)}
+        </ul>
+        <div class="mt-auto flex flex-wrap items-center justify-between gap-3 pt-6">
+          <div class="flex flex-wrap gap-3">
+            {p.data.github.map((g) => (
+              <a href={g.href} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-muted hover:text-fg">
+                <Icon name="github" size={15} /> {p.data.github.length > 1 ? g.label : 'GitHub'}
+              </a>
+            ))}
+          </div>
+          <a href={`/projects/${p.id}/`} class="text-sm font-medium text-accent hover:underline underline-offset-4">Read write-up →</a>
+        </div>
+      </li>
+    ))}
+  </ul>
+
+  <div class="mt-12">
+    <h3 class="eyebrow">More Applied HRI &amp; Robotics Work</h3>
+    <ul class="mt-4 divide-y divide-line border-y border-line">
+      {moreWork.map((w) => (
+        <li class="flex flex-col gap-1 py-3 sm:flex-row sm:items-baseline sm:gap-6">
+          <span class="text-[14.5px] font-medium sm:w-72 sm:shrink-0">{w.title}</span>
+          <span class="text-sm text-muted">{w.note}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
