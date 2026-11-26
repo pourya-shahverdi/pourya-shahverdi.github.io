@@ -36,7 +36,7 @@ Running a study like that live, with real people, needs infrastructure that most
 - **66 participants · 396 rehearsals · 1,188 affect reports** collected through the platform.
 - **4.19M perception events** logged end to end.
 - **~18 ms** emotion inference in the live perception loop.
-- **Database fix:** switching SQLite to WAL mode and adding targeted indexing cut the summary poll from **~8.2 s to ~0.07 s**.
+- **Database fix:** switching SQLite to WAL mode and adding targeted indexing cut the summary poll from **~820 ms to ~72 ms**.
 
 ## Key Takeaways
 
